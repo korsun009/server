@@ -1,0 +1,1361 @@
+diff --git a/apps/files_sharing/l10n/ar.js b/apps/files_sharing/l10n/ar.js
+index 6d066a1be9..70e7224e7d 100644
+--- a/apps/files_sharing/l10n/ar.js
++++ b/apps/files_sharing/l10n/ar.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "مسؤول النظام قام بفرض الحماية عن طريق كلمة المرور.",
+     "Automatically copying failed, please copy the share link manually" : "تعذّر النسخ التلقائي. قم رجاءً بنسخ رابط المشاركة يدويّاً",
+     "Link copied" : "تمّ نسخ الرابط",
++    "Copy readable link" : "نسخ الرابط القابل للقراءة",
++    "Readable link copied" : "تم نسخ الرابط القابل للقراءة",
+     "Email already added" : "الإيميل سبقت إضافته سلفاً",
+     "Invalid email address" : "عنوان الإيميل غير صحيح",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["عنوان الإيميل التالي غير صحيح: {emails}","عنوان الإيميل التالي غير صحيح: {emails}","عنوان الإيميل التالي غير صحيح: {emails}","عناوين الإيميل التالية غير صحيحة: {emails}","عناوين الإيميل التالية غير صحيحة: {emails}","عناوين الإيميل التالية غير صحيحة: {emails}"],
+diff --git a/apps/files_sharing/l10n/ar.json b/apps/files_sharing/l10n/ar.json
+index 5e65b3a614..aeb93c74cb 100644
+--- a/apps/files_sharing/l10n/ar.json
++++ b/apps/files_sharing/l10n/ar.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "مسؤول النظام قام بفرض الحماية عن طريق كلمة المرور.",
+     "Automatically copying failed, please copy the share link manually" : "تعذّر النسخ التلقائي. قم رجاءً بنسخ رابط المشاركة يدويّاً",
+     "Link copied" : "تمّ نسخ الرابط",
++    "Copy readable link" : "نسخ الرابط القابل للقراءة",
++    "Readable link copied" : "تم نسخ الرابط القابل للقراءة",
+     "Email already added" : "الإيميل سبقت إضافته سلفاً",
+     "Invalid email address" : "عنوان الإيميل غير صحيح",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["عنوان الإيميل التالي غير صحيح: {emails}","عنوان الإيميل التالي غير صحيح: {emails}","عنوان الإيميل التالي غير صحيح: {emails}","عناوين الإيميل التالية غير صحيحة: {emails}","عناوين الإيميل التالية غير صحيحة: {emails}","عناوين الإيميل التالية غير صحيحة: {emails}"],
+diff --git a/apps/files_sharing/l10n/ast.js b/apps/files_sharing/l10n/ast.js
+index 2110cd98ee..91e7f0680d 100644
+--- a/apps/files_sharing/l10n/ast.js
++++ b/apps/files_sharing/l10n/ast.js
+@@ -102,6 +102,8 @@ OC.L10N.register(
+     "Expiration date" : "Data de caducidá",
+     "Password" : "Contraseña",
+     "Link copied" : "Copióse l'enllaz",
++    "Copy readable link" : "Copiar l'enllaz llexible",
++    "Readable link copied" : "Copióse l'enllaz llexible",
+     "Invalid email address" : "La direición de corréu electrónicu ye inválida",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Les direición de corréu siguiente nun ye válida: {emails}","Les direiciones de corréu siguientes nun son válides: {emails}"],
+     "Share link" : "Compartir l'enllaz",
+diff --git a/apps/files_sharing/l10n/ast.json b/apps/files_sharing/l10n/ast.json
+index ae91122081..0f334bc82e 100644
+--- a/apps/files_sharing/l10n/ast.json
++++ b/apps/files_sharing/l10n/ast.json
+@@ -100,6 +100,8 @@
+     "Expiration date" : "Data de caducidá",
+     "Password" : "Contraseña",
+     "Link copied" : "Copióse l'enllaz",
++    "Copy readable link" : "Copiar l'enllaz llexible",
++    "Readable link copied" : "Copióse l'enllaz llexible",
+     "Invalid email address" : "La direición de corréu electrónicu ye inválida",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Les direición de corréu siguiente nun ye válida: {emails}","Les direiciones de corréu siguientes nun son válides: {emails}"],
+     "Share link" : "Compartir l'enllaz",
+diff --git a/apps/files_sharing/l10n/bg.js b/apps/files_sharing/l10n/bg.js
+index 4d470b6898..44be170522 100644
+--- a/apps/files_sharing/l10n/bg.js
++++ b/apps/files_sharing/l10n/bg.js
+@@ -100,6 +100,8 @@ OC.L10N.register(
+     "Set a password" : "Задаване на парола",
+     "Password" : "Парола",
+     "Link copied" : "Връзката е копирана",
++    "Copy readable link" : "Копиране на четима връзка",
++    "Readable link copied" : "Четимата връзка е копирана",
+     "Share link" : "Връзка за споделяне",
+     "Copy" : "Копие",
+     "Send link via email" : "Сподели връзка с имейл",
+diff --git a/apps/files_sharing/l10n/bg.json b/apps/files_sharing/l10n/bg.json
+index c28d14f927..9c635a7f19 100644
+--- a/apps/files_sharing/l10n/bg.json
++++ b/apps/files_sharing/l10n/bg.json
+@@ -98,6 +98,8 @@
+     "Set a password" : "Задаване на парола",
+     "Password" : "Парола",
+     "Link copied" : "Връзката е копирана",
++    "Copy readable link" : "Копиране на четима връзка",
++    "Readable link copied" : "Четимата връзка е копирана",
+     "Share link" : "Връзка за споделяне",
+     "Copy" : "Копие",
+     "Send link via email" : "Сподели връзка с имейл",
+diff --git a/apps/files_sharing/l10n/ca.js b/apps/files_sharing/l10n/ca.js
+index 86ae0d32a5..5bee05fbeb 100644
+--- a/apps/files_sharing/l10n/ca.js
++++ b/apps/files_sharing/l10n/ca.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "El vostre administrador ha aplicat una protecció amb contrasenya.",
+     "Automatically copying failed, please copy the share link manually" : "S'ha produït un error en copiar automàticament; copieu l'enllaç de compartició manualment",
+     "Link copied" : "S'ha copiat l'enllaç",
++    "Copy readable link" : "Copia l'enllaç llegible",
++    "Readable link copied" : "S'ha copiat l'enllaç llegible",
+     "Email already added" : "El correu electrònic ja s'ha afegit",
+     "Invalid email address" : "L'adreça de correu no és vàlida",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["L'adreça de correu següent no és vàlida: {emails}","Les adreces de correu següents no son vàlides: {emails}"],
+diff --git a/apps/files_sharing/l10n/ca.json b/apps/files_sharing/l10n/ca.json
+index 11f9133572..e2b41b9ae4 100644
+--- a/apps/files_sharing/l10n/ca.json
++++ b/apps/files_sharing/l10n/ca.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "El vostre administrador ha aplicat una protecció amb contrasenya.",
+     "Automatically copying failed, please copy the share link manually" : "S'ha produït un error en copiar automàticament; copieu l'enllaç de compartició manualment",
+     "Link copied" : "S'ha copiat l'enllaç",
++    "Copy readable link" : "Copia l'enllaç llegible",
++    "Readable link copied" : "S'ha copiat l'enllaç llegible",
+     "Email already added" : "El correu electrònic ja s'ha afegit",
+     "Invalid email address" : "L'adreça de correu no és vàlida",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["L'adreça de correu següent no és vàlida: {emails}","Les adreces de correu següents no son vàlides: {emails}"],
+diff --git a/apps/files_sharing/l10n/cs.js b/apps/files_sharing/l10n/cs.js
+index cf5676718d..1a817803f1 100644
+--- a/apps/files_sharing/l10n/cs.js
++++ b/apps/files_sharing/l10n/cs.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Váš správce vynutil ochranu heslem.",
+     "Automatically copying failed, please copy the share link manually" : "Automatické zkopírování se nezdařilo – zkopírujte prosím odkaz pro sdílení ručně",
+     "Link copied" : "Odkaz zkopírován",
++    "Copy readable link" : "Zkopírovat čitelný odkaz",
++    "Readable link copied" : "Čitelný odkaz zkopírován",
+     "Email already added" : "E-mail už byl přidán",
+     "Invalid email address" : "Neplatná e-mailová adresa",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Následující e-mailová adresa není platná: {emails}","Následující e-mailové adresy nejsou platné: {emails}","Následující e-mailové adresy nejsou platné: {emails}","Následující e-mailové adresy nejsou platné: {emails}"],
+diff --git a/apps/files_sharing/l10n/cs.json b/apps/files_sharing/l10n/cs.json
+index e74a801b5a..07296b0535 100644
+--- a/apps/files_sharing/l10n/cs.json
++++ b/apps/files_sharing/l10n/cs.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Váš správce vynutil ochranu heslem.",
+     "Automatically copying failed, please copy the share link manually" : "Automatické zkopírování se nezdařilo – zkopírujte prosím odkaz pro sdílení ručně",
+     "Link copied" : "Odkaz zkopírován",
++    "Copy readable link" : "Zkopírovat čitelný odkaz",
++    "Readable link copied" : "Čitelný odkaz zkopírován",
+     "Email already added" : "E-mail už byl přidán",
+     "Invalid email address" : "Neplatná e-mailová adresa",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Následující e-mailová adresa není platná: {emails}","Následující e-mailové adresy nejsou platné: {emails}","Následující e-mailové adresy nejsou platné: {emails}","Následující e-mailové adresy nejsou platné: {emails}"],
+diff --git a/apps/files_sharing/l10n/da.js b/apps/files_sharing/l10n/da.js
+index 75537a1aaf..49f9e2a13b 100644
+--- a/apps/files_sharing/l10n/da.js
++++ b/apps/files_sharing/l10n/da.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Din administrator har gennemtvunget en adgangskodebeskyttelse",
+     "Automatically copying failed, please copy the share link manually" : "Automatisk kopiering fejlede. Kopier venligst delingslinket manuelt",
+     "Link copied" : "Link kopieret",
++    "Copy readable link" : "Kopiér læsbart link",
++    "Readable link copied" : "Læsbar link kopieret",
+     "Email already added" : "E-mailen er allerede tilføjet",
+     "Invalid email address" : "Ugyldig e-mailadresse",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Den følgende e-mailadresse er ikke gldig: {emails}","De følgende e-mailadresser er ikke gyldige: {emails}"],
+diff --git a/apps/files_sharing/l10n/da.json b/apps/files_sharing/l10n/da.json
+index eaaf98d468..254acf8c0e 100644
+--- a/apps/files_sharing/l10n/da.json
++++ b/apps/files_sharing/l10n/da.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Din administrator har gennemtvunget en adgangskodebeskyttelse",
+     "Automatically copying failed, please copy the share link manually" : "Automatisk kopiering fejlede. Kopier venligst delingslinket manuelt",
+     "Link copied" : "Link kopieret",
++    "Copy readable link" : "Kopiér læsbart link",
++    "Readable link copied" : "Læsbar link kopieret",
+     "Email already added" : "E-mailen er allerede tilføjet",
+     "Invalid email address" : "Ugyldig e-mailadresse",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Den følgende e-mailadresse er ikke gldig: {emails}","De følgende e-mailadresser er ikke gyldige: {emails}"],
+diff --git a/apps/files_sharing/l10n/de.js b/apps/files_sharing/l10n/de.js
+index 369bc633cd..81591a82e0 100644
+--- a/apps/files_sharing/l10n/de.js
++++ b/apps/files_sharing/l10n/de.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Die Administration erzwingt einen Passwortschutz",
+     "Automatically copying failed, please copy the share link manually" : "Automatisches Kopieren ist fehlgeschlagen, bitte den Freigabelink manuell kopieren",
+     "Link copied" : "Link kopiert",
++    "Copy readable link" : "Lesbaren Link kopieren",
++    "Readable link copied" : "Lesbarer Link kopiert",
+     "Email already added" : "E-Mail-Adresse wurde bereits hinzugefügt",
+     "Invalid email address" : "Ungültige E-Mail-Adresse",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Die folgende E-Mail-Adresse ist ungültig: ","Die folgenden E-Mail-Adressen sind ungültig: {emails}"],
+diff --git a/apps/files_sharing/l10n/de.json b/apps/files_sharing/l10n/de.json
+index 5340edb8b8..d7a5fd046e 100644
+--- a/apps/files_sharing/l10n/de.json
++++ b/apps/files_sharing/l10n/de.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Die Administration erzwingt einen Passwortschutz",
+     "Automatically copying failed, please copy the share link manually" : "Automatisches Kopieren ist fehlgeschlagen, bitte den Freigabelink manuell kopieren",
+     "Link copied" : "Link kopiert",
++    "Copy readable link" : "Lesbaren Link kopieren",
++    "Readable link copied" : "Lesbarer Link kopiert",
+     "Email already added" : "E-Mail-Adresse wurde bereits hinzugefügt",
+     "Invalid email address" : "Ungültige E-Mail-Adresse",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Die folgende E-Mail-Adresse ist ungültig: ","Die folgenden E-Mail-Adressen sind ungültig: {emails}"],
+diff --git a/apps/files_sharing/l10n/de_DE.js b/apps/files_sharing/l10n/de_DE.js
+index d3fc7cec1d..f1410cae8a 100644
+--- a/apps/files_sharing/l10n/de_DE.js
++++ b/apps/files_sharing/l10n/de_DE.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Ihre Administration erzwingt einen Passwortschutz",
+     "Automatically copying failed, please copy the share link manually" : "Automatisches Kopieren ist fehlgeschlagen, bitte den Freigabelink manuell kopieren",
+     "Link copied" : "Link kopiert",
++    "Copy readable link" : "Lesbaren Link kopieren",
++    "Readable link copied" : "Lesbarer Link kopiert",
+     "Email already added" : "E-Mail-Adresse wurde bereits hinzugefügt",
+     "Invalid email address" : "Ungültige E-Mail-Adresse",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Die folgende E-Mail-Adresse ist ungültig: ","Die folgenden E-Mail-Adressen sind ungültig: {emails}"],
+diff --git a/apps/files_sharing/l10n/de_DE.json b/apps/files_sharing/l10n/de_DE.json
+index 34ac9e64be..7a25779a4e 100644
+--- a/apps/files_sharing/l10n/de_DE.json
++++ b/apps/files_sharing/l10n/de_DE.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Ihre Administration erzwingt einen Passwortschutz",
+     "Automatically copying failed, please copy the share link manually" : "Automatisches Kopieren ist fehlgeschlagen, bitte den Freigabelink manuell kopieren",
+     "Link copied" : "Link kopiert",
++    "Copy readable link" : "Lesbaren Link kopieren",
++    "Readable link copied" : "Lesbarer Link kopiert",
+     "Email already added" : "E-Mail-Adresse wurde bereits hinzugefügt",
+     "Invalid email address" : "Ungültige E-Mail-Adresse",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Die folgende E-Mail-Adresse ist ungültig: ","Die folgenden E-Mail-Adressen sind ungültig: {emails}"],
+diff --git a/apps/files_sharing/l10n/el.js b/apps/files_sharing/l10n/el.js
+index 90fef1eb0c..c22ffa3453 100644
+--- a/apps/files_sharing/l10n/el.js
++++ b/apps/files_sharing/l10n/el.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Ο διαχειριστής σας έχει επιβάλει προστασία με κωδικό πρόσβασης.",
+     "Automatically copying failed, please copy the share link manually" : "Η αυτόματη αντιγραφή απέτυχε, παρακαλώ αντιγράψτε τον σύνδεσμο διαμοιρασμού χειροκίνητα",
+     "Link copied" : "Ο σύνδεσμος αντιγράφηκε",
++    "Copy readable link" : "Αντιγραφή αναγνώσιμου συνδέσμου",
++    "Readable link copied" : "Ο αναγνώσιμος σύνδεσμος αντιγράφηκε",
+     "Email already added" : "Το email έχει ήδη προστεθεί",
+     "Invalid email address" : "Μη έγκυρη διεύθυνση email",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Η ακόλουθη διεύθυνση email δεν είναι έγκυρη: {emails}","Οι ακόλουθες διευθύνσεις email δεν είναι έγκυρες: {emails}"],
+diff --git a/apps/files_sharing/l10n/el.json b/apps/files_sharing/l10n/el.json
+index b55231742c..24754ab5a8 100644
+--- a/apps/files_sharing/l10n/el.json
++++ b/apps/files_sharing/l10n/el.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Ο διαχειριστής σας έχει επιβάλει προστασία με κωδικό πρόσβασης.",
+     "Automatically copying failed, please copy the share link manually" : "Η αυτόματη αντιγραφή απέτυχε, παρακαλώ αντιγράψτε τον σύνδεσμο διαμοιρασμού χειροκίνητα",
+     "Link copied" : "Ο σύνδεσμος αντιγράφηκε",
++    "Copy readable link" : "Αντιγραφή αναγνώσιμου συνδέσμου",
++    "Readable link copied" : "Ο αναγνώσιμος σύνδεσμος αντιγράφηκε",
+     "Email already added" : "Το email έχει ήδη προστεθεί",
+     "Invalid email address" : "Μη έγκυρη διεύθυνση email",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Η ακόλουθη διεύθυνση email δεν είναι έγκυρη: {emails}","Οι ακόλουθες διευθύνσεις email δεν είναι έγκυρες: {emails}"],
+diff --git a/apps/files_sharing/l10n/en_GB.js b/apps/files_sharing/l10n/en_GB.js
+index 391d70c051..eb3d13820e 100644
+--- a/apps/files_sharing/l10n/en_GB.js
++++ b/apps/files_sharing/l10n/en_GB.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Your administrator has enforced a password protection.",
+     "Automatically copying failed, please copy the share link manually" : "Automatically copying failed, please copy the share link manually",
+     "Link copied" : "Link copied",
++    "Copy readable link" : "Copy readable link",
++    "Readable link copied" : "Readable link copied",
+     "Email already added" : "Email already added",
+     "Invalid email address" : "Invalid email address",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["The following email address is not valid: {emails}","The following email addresses are not valid: {emails}"],
+diff --git a/apps/files_sharing/l10n/en_GB.json b/apps/files_sharing/l10n/en_GB.json
+index 7fa7ab061e..2062a4c40d 100644
+--- a/apps/files_sharing/l10n/en_GB.json
++++ b/apps/files_sharing/l10n/en_GB.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Your administrator has enforced a password protection.",
+     "Automatically copying failed, please copy the share link manually" : "Automatically copying failed, please copy the share link manually",
+     "Link copied" : "Link copied",
++    "Copy readable link" : "Copy readable link",
++    "Readable link copied" : "Readable link copied",
+     "Email already added" : "Email already added",
+     "Invalid email address" : "Invalid email address",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["The following email address is not valid: {emails}","The following email addresses are not valid: {emails}"],
+diff --git a/apps/files_sharing/l10n/es.js b/apps/files_sharing/l10n/es.js
+index 322dae1cf8..3f2cf26bad 100644
+--- a/apps/files_sharing/l10n/es.js
++++ b/apps/files_sharing/l10n/es.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Su administrador ha hecho obligatoria una protección con contraseñas.",
+     "Automatically copying failed, please copy the share link manually" : "La copia automática falló, por favor, copie el enlace compartido manualmente",
+     "Link copied" : "Enlace copiado",
++    "Copy readable link" : "Copiar enlace legible",
++    "Readable link copied" : "Enlace legible copiado",
+     "Email already added" : "El correo electrónico ya fue añadido",
+     "Invalid email address" : "Dirección de correo electrónico inválida",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["La siguiente dirección de correo electrónico no es válida: {emails}","Las siguientes direcciones de correo electrónicas no son válidas: {emails}","Las siguientes direcciones de correo electrónicas no son válidas: {emails}"],
+diff --git a/apps/files_sharing/l10n/es.json b/apps/files_sharing/l10n/es.json
+index df071bc635..a3f7f52bdd 100644
+--- a/apps/files_sharing/l10n/es.json
++++ b/apps/files_sharing/l10n/es.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Su administrador ha hecho obligatoria una protección con contraseñas.",
+     "Automatically copying failed, please copy the share link manually" : "La copia automática falló, por favor, copie el enlace compartido manualmente",
+     "Link copied" : "Enlace copiado",
++    "Copy readable link" : "Copiar enlace legible",
++    "Readable link copied" : "Enlace legible copiado",
+     "Email already added" : "El correo electrónico ya fue añadido",
+     "Invalid email address" : "Dirección de correo electrónico inválida",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["La siguiente dirección de correo electrónico no es válida: {emails}","Las siguientes direcciones de correo electrónicas no son válidas: {emails}","Las siguientes direcciones de correo electrónicas no son válidas: {emails}"],
+diff --git a/apps/files_sharing/l10n/es_EC.js b/apps/files_sharing/l10n/es_EC.js
+index b81725cd88..559ab0b07d 100644
+--- a/apps/files_sharing/l10n/es_EC.js
++++ b/apps/files_sharing/l10n/es_EC.js
+@@ -98,6 +98,8 @@ OC.L10N.register(
+     "Expiration date" : "Fecha de expiración",
+     "Set a password" : "Establecer una contraseña",
+     "Link copied" : "Enlace copiado",
++    "Copy readable link" : "Copiar enlace legible",
++    "Readable link copied" : "Enlace legible copiado",
+     "Share link" : "Compartir enlace",
+     "Copy" : "Copiar",
+     "Close" : "Cerrar",
+diff --git a/apps/files_sharing/l10n/es_EC.json b/apps/files_sharing/l10n/es_EC.json
+index 396f341464..75f5bec6c3 100644
+--- a/apps/files_sharing/l10n/es_EC.json
++++ b/apps/files_sharing/l10n/es_EC.json
+@@ -96,6 +96,8 @@
+     "Expiration date" : "Fecha de expiración",
+     "Set a password" : "Establecer una contraseña",
+     "Link copied" : "Enlace copiado",
++    "Copy readable link" : "Copiar enlace legible",
++    "Readable link copied" : "Enlace legible copiado",
+     "Share link" : "Compartir enlace",
+     "Copy" : "Copiar",
+     "Close" : "Cerrar",
+diff --git a/apps/files_sharing/l10n/es_MX.js b/apps/files_sharing/l10n/es_MX.js
+index 69036c9c17..0d19b4bd1c 100644
+--- a/apps/files_sharing/l10n/es_MX.js
++++ b/apps/files_sharing/l10n/es_MX.js
+@@ -127,6 +127,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Su administrador ha impuesto la protección por contraseña.",
+     "Automatically copying failed, please copy the share link manually" : "La copia automática falló, por favor, copie el enlace compartido manualmente",
+     "Link copied" : "Vinculo copiado",
++    "Copy readable link" : "Copiar vínculo legible",
++    "Readable link copied" : "Vínculo legible copiado",
+     "Email already added" : "El correo electrónico ya está añadido",
+     "Invalid email address" : "Correo electrónico inválido",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Las siguiente dirección de correo electrónico es inválida: {emails}","Las siguientes direcciones de correo electrónico son inválidas: {emails}","Las siguientes direcciones de correo electrónico son inválidas: {emails}"],
+diff --git a/apps/files_sharing/l10n/es_MX.json b/apps/files_sharing/l10n/es_MX.json
+index ddb5fa9839..2b47e158fd 100644
+--- a/apps/files_sharing/l10n/es_MX.json
++++ b/apps/files_sharing/l10n/es_MX.json
+@@ -125,6 +125,8 @@
+     "Your administrator has enforced a password protection." : "Su administrador ha impuesto la protección por contraseña.",
+     "Automatically copying failed, please copy the share link manually" : "La copia automática falló, por favor, copie el enlace compartido manualmente",
+     "Link copied" : "Vinculo copiado",
++    "Copy readable link" : "Copiar vínculo legible",
++    "Readable link copied" : "Vínculo legible copiado",
+     "Email already added" : "El correo electrónico ya está añadido",
+     "Invalid email address" : "Correo electrónico inválido",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Las siguiente dirección de correo electrónico es inválida: {emails}","Las siguientes direcciones de correo electrónico son inválidas: {emails}","Las siguientes direcciones de correo electrónico son inválidas: {emails}"],
+diff --git a/apps/files_sharing/l10n/et_EE.js b/apps/files_sharing/l10n/et_EE.js
+index 50ce8d6a17..94b654a5af 100644
+--- a/apps/files_sharing/l10n/et_EE.js
++++ b/apps/files_sharing/l10n/et_EE.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Sinu serveri peakasutaja on kehtestanud salasõna kasutamise tingimuse.",
+     "Automatically copying failed, please copy the share link manually" : "Automaatne kopeerimine ei toimi, palun kopeeri jagamislink käsitsi",
+     "Link copied" : "Link kopeeritud",
++    "Copy readable link" : "Kopeeri loetav link",
++    "Readable link copied" : "Loetav link kopeeritud",
+     "Email already added" : "E-posti aadress on juba lisatud",
+     "Invalid email address" : "Vigane e-posti aadress",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Järgnev e-posti aadress pole korrektne: {emails}","Järgnevad e-posti aadressid pole korrektsed: {emails}"],
+diff --git a/apps/files_sharing/l10n/et_EE.json b/apps/files_sharing/l10n/et_EE.json
+index 00b550e8bb..bd9c32d22e 100644
+--- a/apps/files_sharing/l10n/et_EE.json
++++ b/apps/files_sharing/l10n/et_EE.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Sinu serveri peakasutaja on kehtestanud salasõna kasutamise tingimuse.",
+     "Automatically copying failed, please copy the share link manually" : "Automaatne kopeerimine ei toimi, palun kopeeri jagamislink käsitsi",
+     "Link copied" : "Link kopeeritud",
++    "Copy readable link" : "Kopeeri loetav link",
++    "Readable link copied" : "Loetav link kopeeritud",
+     "Email already added" : "E-posti aadress on juba lisatud",
+     "Invalid email address" : "Vigane e-posti aadress",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Järgnev e-posti aadress pole korrektne: {emails}","Järgnevad e-posti aadressid pole korrektsed: {emails}"],
+diff --git a/apps/files_sharing/l10n/eu.js b/apps/files_sharing/l10n/eu.js
+index 21a603779a..de230d2c5e 100644
+--- a/apps/files_sharing/l10n/eu.js
++++ b/apps/files_sharing/l10n/eu.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Zure administratzaileak pasahitzez babestu behar dela ezarri du.",
+     "Automatically copying failed, please copy the share link manually" : "Autimatikoki kopiatzeak huts egin du, kopiatu eskuz partekatze esteka",
+     "Link copied" : "Esteka kopiatu da",
++    "Copy readable link" : "Kopiatu esteka irakurgarria",
++    "Readable link copied" : "Esteka irakurgarria kopiatu da",
+     "Email already added" : "Helbide elektronikoa dagoeneko gehituta dago",
+     "Invalid email address" : "Baliogabeko helbide elektronikoa",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Ondorengo helbide elektronikoa ez da baliozkoa: {emails}","Ondorengo helbide elektronikoak ez dira baliozkoak: {emails}"],
+diff --git a/apps/files_sharing/l10n/eu.json b/apps/files_sharing/l10n/eu.json
+index 3a4ac38c0a..000957a6c6 100644
+--- a/apps/files_sharing/l10n/eu.json
++++ b/apps/files_sharing/l10n/eu.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Zure administratzaileak pasahitzez babestu behar dela ezarri du.",
+     "Automatically copying failed, please copy the share link manually" : "Autimatikoki kopiatzeak huts egin du, kopiatu eskuz partekatze esteka",
+     "Link copied" : "Esteka kopiatu da",
++    "Copy readable link" : "Kopiatu esteka irakurgarria",
++    "Readable link copied" : "Esteka irakurgarria kopiatu da",
+     "Email already added" : "Helbide elektronikoa dagoeneko gehituta dago",
+     "Invalid email address" : "Baliogabeko helbide elektronikoa",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Ondorengo helbide elektronikoa ez da baliozkoa: {emails}","Ondorengo helbide elektronikoak ez dira baliozkoak: {emails}"],
+diff --git a/apps/files_sharing/l10n/fa.js b/apps/files_sharing/l10n/fa.js
+index 87d0d40146..31e3225d70 100644
+--- a/apps/files_sharing/l10n/fa.js
++++ b/apps/files_sharing/l10n/fa.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "مدیر شما محافظت با رمز عبور را اعمال کرده است",
+     "Automatically copying failed, please copy the share link manually" : "کپی خودکار انجام نشد، لطفاً لینک اشتراک را به صورت دستی کپی کنید",
+     "Link copied" : "لینک کپی شد",
++    "Copy readable link" : "کپی پیوند خوانا",
++    "Readable link copied" : "پیوند خوانا کپی شد",
+     "Email already added" : "ایمیل قبلاً اضافه شده است",
+     "Invalid email address" : "آدرس ایمیل نامعتبر است",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["آدرس‌های ایمیل زیر معتبر نیستند: {emails}","نشانی ایمیل های زیر معتبر نیستند: {emails}"],
+diff --git a/apps/files_sharing/l10n/fa.json b/apps/files_sharing/l10n/fa.json
+index 1353ba8601..d71263af58 100644
+--- a/apps/files_sharing/l10n/fa.json
++++ b/apps/files_sharing/l10n/fa.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "مدیر شما محافظت با رمز عبور را اعمال کرده است",
+     "Automatically copying failed, please copy the share link manually" : "کپی خودکار انجام نشد، لطفاً لینک اشتراک را به صورت دستی کپی کنید",
+     "Link copied" : "لینک کپی شد",
++    "Copy readable link" : "کپی پیوند خوانا",
++    "Readable link copied" : "پیوند خوانا کپی شد",
+     "Email already added" : "ایمیل قبلاً اضافه شده است",
+     "Invalid email address" : "آدرس ایمیل نامعتبر است",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["آدرس‌های ایمیل زیر معتبر نیستند: {emails}","نشانی ایمیل های زیر معتبر نیستند: {emails}"],
+diff --git a/apps/files_sharing/l10n/fi.js b/apps/files_sharing/l10n/fi.js
+index 7acccd230d..db93f85908 100644
+--- a/apps/files_sharing/l10n/fi.js
++++ b/apps/files_sharing/l10n/fi.js
+@@ -110,6 +110,8 @@ OC.L10N.register(
+     "Generate a new password" : "Luo uusi salasana",
+     "Your administrator has enforced a password protection." : "Ylläpitäjä on pakottanut salasanasuojauksen.",
+     "Link copied" : "Linkki kopioitu",
++    "Copy readable link" : "Kopioi luettava linkki",
++    "Readable link copied" : "Luettava linkki kopioitu",
+     "Email already added" : "Sähköpostiosoite on jo lisätty",
+     "Invalid email address" : "Virheellinen sähköpostiosoite",
+     "_{count} email address added_::_{count} email addresses added_" : ["{count} sähköpostiosoite lisätty","{count} sähköpostiosoitetta lisätty"],
+diff --git a/apps/files_sharing/l10n/fi.json b/apps/files_sharing/l10n/fi.json
+index 94efa0b23a..6274d39341 100644
+--- a/apps/files_sharing/l10n/fi.json
++++ b/apps/files_sharing/l10n/fi.json
+@@ -108,6 +108,8 @@
+     "Generate a new password" : "Luo uusi salasana",
+     "Your administrator has enforced a password protection." : "Ylläpitäjä on pakottanut salasanasuojauksen.",
+     "Link copied" : "Linkki kopioitu",
++    "Copy readable link" : "Kopioi luettava linkki",
++    "Readable link copied" : "Luettava linkki kopioitu",
+     "Email already added" : "Sähköpostiosoite on jo lisätty",
+     "Invalid email address" : "Virheellinen sähköpostiosoite",
+     "_{count} email address added_::_{count} email addresses added_" : ["{count} sähköpostiosoite lisätty","{count} sähköpostiosoitetta lisätty"],
+diff --git a/apps/files_sharing/l10n/fr.js b/apps/files_sharing/l10n/fr.js
+index 9d151fa090..1ae7051b1c 100644
+--- a/apps/files_sharing/l10n/fr.js
++++ b/apps/files_sharing/l10n/fr.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Votre administrateur a imposé une protection par mot de passe.",
+     "Automatically copying failed, please copy the share link manually" : "La copie automatique a échoué, veuillez copier le lien de partage manuellement.",
+     "Link copied" : "Lien copié",
++    "Copy readable link" : "Copier le lien lisible",
++    "Readable link copied" : "Lien lisible copié",
+     "Email already added" : "E-mail déjà ajouté",
+     "Invalid email address" : "Adresse e-mail invalide",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["L'adresse mail suivante est invalide : {emails}","Les adresses mail suivantes sont invalides : {emails}","Les adresses mail suivantes sont invalides : {emails}"],
+diff --git a/apps/files_sharing/l10n/fr.json b/apps/files_sharing/l10n/fr.json
+index dc8c1d6c38..84600e45b1 100644
+--- a/apps/files_sharing/l10n/fr.json
++++ b/apps/files_sharing/l10n/fr.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Votre administrateur a imposé une protection par mot de passe.",
+     "Automatically copying failed, please copy the share link manually" : "La copie automatique a échoué, veuillez copier le lien de partage manuellement.",
+     "Link copied" : "Lien copié",
++    "Copy readable link" : "Copier le lien lisible",
++    "Readable link copied" : "Lien lisible copié",
+     "Email already added" : "E-mail déjà ajouté",
+     "Invalid email address" : "Adresse e-mail invalide",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["L'adresse mail suivante est invalide : {emails}","Les adresses mail suivantes sont invalides : {emails}","Les adresses mail suivantes sont invalides : {emails}"],
+diff --git a/apps/files_sharing/l10n/ga.js b/apps/files_sharing/l10n/ga.js
+index a61793599f..db1b8d3da4 100644
+--- a/apps/files_sharing/l10n/ga.js
++++ b/apps/files_sharing/l10n/ga.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Chuir do riarthóir cosaint pasfhocail i bhfeidhm.",
+     "Automatically copying failed, please copy the share link manually" : "Theip ar chóipeáil uathoibríoch, cóipeáil an nasc comhroinnte de láimh le do thoil",
+     "Link copied" : "Cóipeáladh an nasc",
++    "Copy readable link" : "Cóipeáil an nasc inléite",
++    "Readable link copied" : "Cóipeáladh an nasc inléite",
+     "Email already added" : "Ríomhphost curtha leis cheana féin",
+     "Invalid email address" : "sheoladh ríomhphoist neamhbhailí",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Níl an seoladh ríomhphoist seo a leanas bailí: {emails}","Níl na seoltaí ríomhphoist seo a leanas bailí: {emails}","Níl na seoltaí ríomhphoist seo a leanas bailí: {emails}","Níl na seoltaí ríomhphoist seo a leanas bailí: {emails}","Níl na seoltaí ríomhphoist seo a leanas bailí: {emails}"],
+diff --git a/apps/files_sharing/l10n/ga.json b/apps/files_sharing/l10n/ga.json
+index 3147ccaa68..0d3374a083 100644
+--- a/apps/files_sharing/l10n/ga.json
++++ b/apps/files_sharing/l10n/ga.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Chuir do riarthóir cosaint pasfhocail i bhfeidhm.",
+     "Automatically copying failed, please copy the share link manually" : "Theip ar chóipeáil uathoibríoch, cóipeáil an nasc comhroinnte de láimh le do thoil",
+     "Link copied" : "Cóipeáladh an nasc",
++    "Copy readable link" : "Cóipeáil an nasc inléite",
++    "Readable link copied" : "Cóipeáladh an nasc inléite",
+     "Email already added" : "Ríomhphost curtha leis cheana féin",
+     "Invalid email address" : "sheoladh ríomhphoist neamhbhailí",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Níl an seoladh ríomhphoist seo a leanas bailí: {emails}","Níl na seoltaí ríomhphoist seo a leanas bailí: {emails}","Níl na seoltaí ríomhphoist seo a leanas bailí: {emails}","Níl na seoltaí ríomhphoist seo a leanas bailí: {emails}","Níl na seoltaí ríomhphoist seo a leanas bailí: {emails}"],
+diff --git a/apps/files_sharing/l10n/gl.js b/apps/files_sharing/l10n/gl.js
+index 41380812cd..097ac5c206 100644
+--- a/apps/files_sharing/l10n/gl.js
++++ b/apps/files_sharing/l10n/gl.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "A administración do sitio impuxo unha protección por contrasinal.",
+     "Automatically copying failed, please copy the share link manually" : "Produciuse un erro ao copiar automaticamente, copie a ligazón para compartir manualmente",
+     "Link copied" : "Ligazón copiada",
++    "Copy readable link" : "Copiar a ligazón lexible",
++    "Readable link copied" : "Ligazón lexible copiada",
+     "Email already added" : "O correo xa foi engadido",
+     "Invalid email address" : "Enderezo de correo incorrecto",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["O seguinte enderezo de correo non é válido: {emails}","Os seguintes enderezos de correo non son válidos: {emails}"],
+diff --git a/apps/files_sharing/l10n/gl.json b/apps/files_sharing/l10n/gl.json
+index 233fc295fa..73f907104e 100644
+--- a/apps/files_sharing/l10n/gl.json
++++ b/apps/files_sharing/l10n/gl.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "A administración do sitio impuxo unha protección por contrasinal.",
+     "Automatically copying failed, please copy the share link manually" : "Produciuse un erro ao copiar automaticamente, copie a ligazón para compartir manualmente",
+     "Link copied" : "Ligazón copiada",
++    "Copy readable link" : "Copiar a ligazón lexible",
++    "Readable link copied" : "Ligazón lexible copiada",
+     "Email already added" : "O correo xa foi engadido",
+     "Invalid email address" : "Enderezo de correo incorrecto",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["O seguinte enderezo de correo non é válido: {emails}","Os seguintes enderezos de correo non son válidos: {emails}"],
+diff --git a/apps/files_sharing/l10n/hr.js b/apps/files_sharing/l10n/hr.js
+index 1f922f9a47..722b62ab33 100644
+--- a/apps/files_sharing/l10n/hr.js
++++ b/apps/files_sharing/l10n/hr.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Vaš je administrator nametnuo zaštitu lozinkom.",
+     "Automatically copying failed, please copy the share link manually" : "Automatsko kopiranje nije uspjelo, molimo ručno kopirajte poveznicu za dijeljenje.",
+     "Link copied" : "Poveznica je kopirana",
++    "Copy readable link" : "Kopiraj čitljivu poveznicu",
++    "Readable link copied" : "Čitljiva poveznica je kopirana",
+     "Email already added" : "Adresa e-pošte je već dodana",
+     "Invalid email address" : "Nevažeća adresa e-pošte",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Sljedeća adresa e-pošte nije valjana: {emails}","Sljedeće adrese e-pošte nisu valjane: {emails}","Sljedeće adrese e-pošte nisu valjane: {emails}"],
+diff --git a/apps/files_sharing/l10n/hr.json b/apps/files_sharing/l10n/hr.json
+index 3d6cbc67f3..f8d63b27dd 100644
+--- a/apps/files_sharing/l10n/hr.json
++++ b/apps/files_sharing/l10n/hr.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Vaš je administrator nametnuo zaštitu lozinkom.",
+     "Automatically copying failed, please copy the share link manually" : "Automatsko kopiranje nije uspjelo, molimo ručno kopirajte poveznicu za dijeljenje.",
+     "Link copied" : "Poveznica je kopirana",
++    "Copy readable link" : "Kopiraj čitljivu poveznicu",
++    "Readable link copied" : "Čitljiva poveznica je kopirana",
+     "Email already added" : "Adresa e-pošte je već dodana",
+     "Invalid email address" : "Nevažeća adresa e-pošte",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Sljedeća adresa e-pošte nije valjana: {emails}","Sljedeće adrese e-pošte nisu valjane: {emails}","Sljedeće adrese e-pošte nisu valjane: {emails}"],
+diff --git a/apps/files_sharing/l10n/hu.js b/apps/files_sharing/l10n/hu.js
+index 649060c72e..53924db24d 100644
+--- a/apps/files_sharing/l10n/hu.js
++++ b/apps/files_sharing/l10n/hu.js
+@@ -113,6 +113,8 @@ OC.L10N.register(
+     "Enter a valid password" : "Adjon meg érvényes jelszót",
+     "Generate a new password" : "Új jelszó előállítása",
+     "Link copied" : "Hivatkozás másolva",
++    "Copy readable link" : "Olvasható hivatkozás másolása",
++    "Readable link copied" : "Olvasható hivatkozás másolva",
+     "Invalid email address" : "Érvénytelen e-mail-cím",
+     "Share link" : "Megosztási hivatkozás",
+     "Copy" : "Másolás",
+diff --git a/apps/files_sharing/l10n/hu.json b/apps/files_sharing/l10n/hu.json
+index 83021e11ae..af22b87baf 100644
+--- a/apps/files_sharing/l10n/hu.json
++++ b/apps/files_sharing/l10n/hu.json
+@@ -111,6 +111,8 @@
+     "Enter a valid password" : "Adjon meg érvényes jelszót",
+     "Generate a new password" : "Új jelszó előállítása",
+     "Link copied" : "Hivatkozás másolva",
++    "Copy readable link" : "Olvasható hivatkozás másolása",
++    "Readable link copied" : "Olvasható hivatkozás másolva",
+     "Invalid email address" : "Érvénytelen e-mail-cím",
+     "Share link" : "Megosztási hivatkozás",
+     "Copy" : "Másolás",
+diff --git a/apps/files_sharing/l10n/id.js b/apps/files_sharing/l10n/id.js
+index 636de570e2..fddcb22e69 100644
+--- a/apps/files_sharing/l10n/id.js
++++ b/apps/files_sharing/l10n/id.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Administrator Anda telah menerapkan perlindungan kata sandi.",
+     "Automatically copying failed, please copy the share link manually" : "Penyalinan otomatis gagal, silakan salin tautan berbagi secara manual",
+     "Link copied" : "Link tersalin",
++    "Copy readable link" : "Salin tautan yang mudah dibaca",
++    "Readable link copied" : "Tautan yang mudah dibaca disalin",
+     "Email already added" : "Email sudah ditambahkan",
+     "Invalid email address" : "Alamat email tidak valid",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Alamat email berikut tidak valid: {emails}"],
+diff --git a/apps/files_sharing/l10n/id.json b/apps/files_sharing/l10n/id.json
+index a61586233e..b7d587b553 100644
+--- a/apps/files_sharing/l10n/id.json
++++ b/apps/files_sharing/l10n/id.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Administrator Anda telah menerapkan perlindungan kata sandi.",
+     "Automatically copying failed, please copy the share link manually" : "Penyalinan otomatis gagal, silakan salin tautan berbagi secara manual",
+     "Link copied" : "Link tersalin",
++    "Copy readable link" : "Salin tautan yang mudah dibaca",
++    "Readable link copied" : "Tautan yang mudah dibaca disalin",
+     "Email already added" : "Email sudah ditambahkan",
+     "Invalid email address" : "Alamat email tidak valid",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Alamat email berikut tidak valid: {emails}"],
+diff --git a/apps/files_sharing/l10n/is.js b/apps/files_sharing/l10n/is.js
+index c949dde6d6..f1a1c01f0b 100644
+--- a/apps/files_sharing/l10n/is.js
++++ b/apps/files_sharing/l10n/is.js
+@@ -126,6 +126,8 @@ OC.L10N.register(
+     "Generate a new password" : "Útbúa nýtt lykilorð",
+     "Your administrator has enforced a password protection." : "Kerfisstjórinn þinn hefur krafist verndunar með lykilorði.",
+     "Link copied" : "Tengill afritaður",
++    "Copy readable link" : "Afrita læsilegan tengil",
++    "Readable link copied" : "Læsilegur tengill afritaður",
+     "Email already added" : "Tölvupóstfangi þegar bætt við",
+     "Invalid email address" : "Ógilt tölvupóstfang",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Eftirfarandi tölvupóstfang er ógilt: {emails}","Eftirfarandi tölvupóstföng eru ógild: {emails}"],
+diff --git a/apps/files_sharing/l10n/is.json b/apps/files_sharing/l10n/is.json
+index 6f8e52d24a..6de845785f 100644
+--- a/apps/files_sharing/l10n/is.json
++++ b/apps/files_sharing/l10n/is.json
+@@ -124,6 +124,8 @@
+     "Generate a new password" : "Útbúa nýtt lykilorð",
+     "Your administrator has enforced a password protection." : "Kerfisstjórinn þinn hefur krafist verndunar með lykilorði.",
+     "Link copied" : "Tengill afritaður",
++    "Copy readable link" : "Afrita læsilegan tengil",
++    "Readable link copied" : "Læsilegur tengill afritaður",
+     "Email already added" : "Tölvupóstfangi þegar bætt við",
+     "Invalid email address" : "Ógilt tölvupóstfang",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Eftirfarandi tölvupóstfang er ógilt: {emails}","Eftirfarandi tölvupóstföng eru ógild: {emails}"],
+diff --git a/apps/files_sharing/l10n/it.js b/apps/files_sharing/l10n/it.js
+index 29a10ed110..8b5131757f 100644
+--- a/apps/files_sharing/l10n/it.js
++++ b/apps/files_sharing/l10n/it.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Il tuo amministratore ha imposto una protezione con password.",
+     "Automatically copying failed, please copy the share link manually" : "Copia automatica fallita, copia il collegamento di condivisione a mano",
+     "Link copied" : "Collegamento copiato",
++    "Copy readable link" : "Copia collegamento leggibile",
++    "Readable link copied" : "Collegamento leggibile copiato",
+     "Email already added" : "Indirizzo di posta già aggiunto",
+     "Invalid email address" : "Indirizzo di posta non valido",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["L'indirizzo di posta seguente non è valido: {emails}","Gli indirizzi di posta seguenti non sono validi: {emails}","Gli indirizzi di posta seguenti non sono validi: {emails}"],
+diff --git a/apps/files_sharing/l10n/it.json b/apps/files_sharing/l10n/it.json
+index 09ae157814..2f3079bf97 100644
+--- a/apps/files_sharing/l10n/it.json
++++ b/apps/files_sharing/l10n/it.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Il tuo amministratore ha imposto una protezione con password.",
+     "Automatically copying failed, please copy the share link manually" : "Copia automatica fallita, copia il collegamento di condivisione a mano",
+     "Link copied" : "Collegamento copiato",
++    "Copy readable link" : "Copia collegamento leggibile",
++    "Readable link copied" : "Collegamento leggibile copiato",
+     "Email already added" : "Indirizzo di posta già aggiunto",
+     "Invalid email address" : "Indirizzo di posta non valido",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["L'indirizzo di posta seguente non è valido: {emails}","Gli indirizzi di posta seguenti non sono validi: {emails}","Gli indirizzi di posta seguenti non sono validi: {emails}"],
+diff --git a/apps/files_sharing/l10n/ja.js b/apps/files_sharing/l10n/ja.js
+index 089eec2729..a699ee07ec 100644
+--- a/apps/files_sharing/l10n/ja.js
++++ b/apps/files_sharing/l10n/ja.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "管理者はパスワードによる保護を行っています。",
+     "Automatically copying failed, please copy the share link manually" : "自動コピーに失敗しました。手動で共有リンクをコピーしてください",
+     "Link copied" : "リンクをコピーしました",
++    "Copy readable link" : "読みやすいリンクをコピー",
++    "Readable link copied" : "読みやすいリンクをコピーしました",
+     "Email already added" : "メールはすでに追加されています",
+     "Invalid email address" : "無効なメールアドレス",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["以下のメールアドレスは無効です： {emails}"],
+diff --git a/apps/files_sharing/l10n/ja.json b/apps/files_sharing/l10n/ja.json
+index 578976fac1..8f9ad3fed9 100644
+--- a/apps/files_sharing/l10n/ja.json
++++ b/apps/files_sharing/l10n/ja.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "管理者はパスワードによる保護を行っています。",
+     "Automatically copying failed, please copy the share link manually" : "自動コピーに失敗しました。手動で共有リンクをコピーしてください",
+     "Link copied" : "リンクをコピーしました",
++    "Copy readable link" : "読みやすいリンクをコピー",
++    "Readable link copied" : "読みやすいリンクをコピーしました",
+     "Email already added" : "メールはすでに追加されています",
+     "Invalid email address" : "無効なメールアドレス",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["以下のメールアドレスは無効です： {emails}"],
+diff --git a/apps/files_sharing/l10n/ka.js b/apps/files_sharing/l10n/ka.js
+index e224178a0f..eb0df3f50a 100644
+--- a/apps/files_sharing/l10n/ka.js
++++ b/apps/files_sharing/l10n/ka.js
+@@ -97,6 +97,8 @@ OC.L10N.register(
+     "Expiration date" : "Expiration date",
+     "Password" : "Password",
+     "Link copied" : "Link copied",
++    "Copy readable link" : "წაკითხვადი ბმულის კოპირება",
++    "Readable link copied" : "წაკითხვადი ბმული დაკოპირდა",
+     "Share link" : "Share link",
+     "Copy" : "Copy",
+     "Select" : "Select",
+diff --git a/apps/files_sharing/l10n/ka.json b/apps/files_sharing/l10n/ka.json
+index b8b530903b..40abf5322f 100644
+--- a/apps/files_sharing/l10n/ka.json
++++ b/apps/files_sharing/l10n/ka.json
+@@ -95,6 +95,8 @@
+     "Expiration date" : "Expiration date",
+     "Password" : "Password",
+     "Link copied" : "Link copied",
++    "Copy readable link" : "წაკითხვადი ბმულის კოპირება",
++    "Readable link copied" : "წაკითხვადი ბმული დაკოპირდა",
+     "Share link" : "Share link",
+     "Copy" : "Copy",
+     "Select" : "Select",
+diff --git a/apps/files_sharing/l10n/ko.js b/apps/files_sharing/l10n/ko.js
+index 0333d604bd..8eee85d788 100644
+--- a/apps/files_sharing/l10n/ko.js
++++ b/apps/files_sharing/l10n/ko.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "관리자가 암호 보호 정책을 시행했습니다.",
+     "Automatically copying failed, please copy the share link manually" : "자동 복사에 실패했습니다. 공유 링크를 수동으로 복사해 주세요.",
+     "Link copied" : "링크 복사됨",
++    "Copy readable link" : "읽기 쉬운 링크 복사",
++    "Readable link copied" : "읽기 쉬운 링크가 복사됨",
+     "Email already added" : "이메일이 이미 추가됨",
+     "Invalid email address" : "이메일이 잘못됨",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["다음 이메일 주소가 잘못되었습니다: {emails}"],
+diff --git a/apps/files_sharing/l10n/ko.json b/apps/files_sharing/l10n/ko.json
+index 9bfa1c6173..e867c0f63e 100644
+--- a/apps/files_sharing/l10n/ko.json
++++ b/apps/files_sharing/l10n/ko.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "관리자가 암호 보호 정책을 시행했습니다.",
+     "Automatically copying failed, please copy the share link manually" : "자동 복사에 실패했습니다. 공유 링크를 수동으로 복사해 주세요.",
+     "Link copied" : "링크 복사됨",
++    "Copy readable link" : "읽기 쉬운 링크 복사",
++    "Readable link copied" : "읽기 쉬운 링크가 복사됨",
+     "Email already added" : "이메일이 이미 추가됨",
+     "Invalid email address" : "이메일이 잘못됨",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["다음 이메일 주소가 잘못되었습니다: {emails}"],
+diff --git a/apps/files_sharing/l10n/lo.js b/apps/files_sharing/l10n/lo.js
+index 109bf64d91..e2c1c8130e 100644
+--- a/apps/files_sharing/l10n/lo.js
++++ b/apps/files_sharing/l10n/lo.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານໄດ້ບັງຄັບໃຊ້ການປ້ອງກັນດ້ວຍລະຫັດຜ່ານ.",
+     "Automatically copying failed, please copy the share link manually" : "ການສຳເນົາອັດຕະໂນມັດລົ້ມເຫຼວ, ກະລຸນາສຳເນົາລິງແບ່ງປັນດ້ວຍຕົວເອງ",
+     "Link copied" : "ສຳເນົາລິງ",
++    "Copy readable link" : "ສຳເນົາລິ້ງທີ່ອ່ານງ່າຍ",
++    "Readable link copied" : "ສຳເນົາລິ້ງທີ່ອ່ານງ່າຍແລ້ວ",
+     "Email already added" : "ອີເມວນີ້ຖືກເພີ່ມແລ້ວ",
+     "Invalid email address" : "ທີ່ຢູ່ອີເມວບໍ່ຖືກຕ້ອງ",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["ທີ່ຢູ່ອີເມວຕໍ່ໄປນີ້ບໍ່ຖືກຕ້ອງ: {emails}"],
+diff --git a/apps/files_sharing/l10n/lo.json b/apps/files_sharing/l10n/lo.json
+index 2fecf7edcf..8220211f8c 100644
+--- a/apps/files_sharing/l10n/lo.json
++++ b/apps/files_sharing/l10n/lo.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "ຜູ້ເບິ່ງແຍງລະບົບຂອງທ່ານໄດ້ບັງຄັບໃຊ້ການປ້ອງກັນດ້ວຍລະຫັດຜ່ານ.",
+     "Automatically copying failed, please copy the share link manually" : "ການສຳເນົາອັດຕະໂນມັດລົ້ມເຫຼວ, ກະລຸນາສຳເນົາລິງແບ່ງປັນດ້ວຍຕົວເອງ",
+     "Link copied" : "ສຳເນົາລິງ",
++    "Copy readable link" : "ສຳເນົາລິ້ງທີ່ອ່ານງ່າຍ",
++    "Readable link copied" : "ສຳເນົາລິ້ງທີ່ອ່ານງ່າຍແລ້ວ",
+     "Email already added" : "ອີເມວນີ້ຖືກເພີ່ມແລ້ວ",
+     "Invalid email address" : "ທີ່ຢູ່ອີເມວບໍ່ຖືກຕ້ອງ",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["ທີ່ຢູ່ອີເມວຕໍ່ໄປນີ້ບໍ່ຖືກຕ້ອງ: {emails}"],
+diff --git a/apps/files_sharing/l10n/lt_LT.js b/apps/files_sharing/l10n/lt_LT.js
+index f9c2812318..105c019480 100644
+--- a/apps/files_sharing/l10n/lt_LT.js
++++ b/apps/files_sharing/l10n/lt_LT.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Jūsų administratorius įjungė slaptažodžio apsaugą.",
+     "Automatically copying failed, please copy the share link manually" : "Nepavyko automatiškai nukopijuoti, nukopijuokite nuorodą rankiniu būdu",
+     "Link copied" : "Nuoroda nukopijuota",
++    "Copy readable link" : "Kopijuoti skaitomą nuorodą",
++    "Readable link copied" : "Skaitoma nuoroda nukopijuota",
+     "Email already added" : "El. paštas jau pridėtas",
+     "Invalid email address" : "Neteisingas el. pašto adresas",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Šis elektroninio pašto adresas yra neteisingas: {emails}","Šie elektroninio pašto adresai yra neteisingi: {emails}","Šie elektroninio pašto adresai yra neteisingi: {emails}","Šie elektroninio pašto adresai yra neteisingi: {emails}"],
+diff --git a/apps/files_sharing/l10n/lt_LT.json b/apps/files_sharing/l10n/lt_LT.json
+index f3d15efff7..1cb62c35d4 100644
+--- a/apps/files_sharing/l10n/lt_LT.json
++++ b/apps/files_sharing/l10n/lt_LT.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Jūsų administratorius įjungė slaptažodžio apsaugą.",
+     "Automatically copying failed, please copy the share link manually" : "Nepavyko automatiškai nukopijuoti, nukopijuokite nuorodą rankiniu būdu",
+     "Link copied" : "Nuoroda nukopijuota",
++    "Copy readable link" : "Kopijuoti skaitomą nuorodą",
++    "Readable link copied" : "Skaitoma nuoroda nukopijuota",
+     "Email already added" : "El. paštas jau pridėtas",
+     "Invalid email address" : "Neteisingas el. pašto adresas",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Šis elektroninio pašto adresas yra neteisingas: {emails}","Šie elektroninio pašto adresai yra neteisingi: {emails}","Šie elektroninio pašto adresai yra neteisingi: {emails}","Šie elektroninio pašto adresai yra neteisingi: {emails}"],
+diff --git a/apps/files_sharing/l10n/mk.js b/apps/files_sharing/l10n/mk.js
+index 31ff02638d..0b63fef111 100644
+--- a/apps/files_sharing/l10n/mk.js
++++ b/apps/files_sharing/l10n/mk.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Вашиот администратор спроведе политика за заштита со лозинка на споделувањата.",
+     "Automatically copying failed, please copy the share link manually" : "Неможе да се копира, копирајте го линкот рачно",
+     "Link copied" : "Линкот е копиран",
++    "Copy readable link" : "Копирај читлив линк",
++    "Readable link copied" : "Читливиот линк е копиран",
+     "Email already added" : "Е-поштата е веќе додадена",
+     "Invalid email address" : "Неправилна е-пошта адреса",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Адресата на е-пошта не е валидна: {emails}","Следниве адреси на е-пошта не се валидни: {emails}"],
+diff --git a/apps/files_sharing/l10n/mk.json b/apps/files_sharing/l10n/mk.json
+index c3a6355211..3b4f720a13 100644
+--- a/apps/files_sharing/l10n/mk.json
++++ b/apps/files_sharing/l10n/mk.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Вашиот администратор спроведе политика за заштита со лозинка на споделувањата.",
+     "Automatically copying failed, please copy the share link manually" : "Неможе да се копира, копирајте го линкот рачно",
+     "Link copied" : "Линкот е копиран",
++    "Copy readable link" : "Копирај читлив линк",
++    "Readable link copied" : "Читливиот линк е копиран",
+     "Email already added" : "Е-поштата е веќе додадена",
+     "Invalid email address" : "Неправилна е-пошта адреса",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Адресата на е-пошта не е валидна: {emails}","Следниве адреси на е-пошта не се валидни: {emails}"],
+diff --git a/apps/files_sharing/l10n/mn.js b/apps/files_sharing/l10n/mn.js
+index e49652a341..d44680071e 100644
+--- a/apps/files_sharing/l10n/mn.js
++++ b/apps/files_sharing/l10n/mn.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Таны админ нууц үгийн хамгаалалт тогтоосон.",
+     "Automatically copying failed, please copy the share link manually" : "Автомат хуулах амжилтгүй болсон, хуваалцах холбоосыг гараар хуулна уу",
+     "Link copied" : "Холбоос хуулагдсан",
++    "Copy readable link" : "Уншихад хялбар холбоосыг хуулах",
++    "Readable link copied" : "Уншихад хялбар холбоос хуулагдсан",
+     "Email already added" : "Имэйл аль хэдийн нэмэгдсэн",
+     "Invalid email address" : "Буруу имэйл хаяг",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Дараах имэйл хаяг буруу байна: {emails}","Дараах имэйл хаягууд буруу байна: {emails}"],
+diff --git a/apps/files_sharing/l10n/mn.json b/apps/files_sharing/l10n/mn.json
+index 69302436f8..fbe961277b 100644
+--- a/apps/files_sharing/l10n/mn.json
++++ b/apps/files_sharing/l10n/mn.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Таны админ нууц үгийн хамгаалалт тогтоосон.",
+     "Automatically copying failed, please copy the share link manually" : "Автомат хуулах амжилтгүй болсон, хуваалцах холбоосыг гараар хуулна уу",
+     "Link copied" : "Холбоос хуулагдсан",
++    "Copy readable link" : "Уншихад хялбар холбоосыг хуулах",
++    "Readable link copied" : "Уншихад хялбар холбоос хуулагдсан",
+     "Email already added" : "Имэйл аль хэдийн нэмэгдсэн",
+     "Invalid email address" : "Буруу имэйл хаяг",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Дараах имэйл хаяг буруу байна: {emails}","Дараах имэйл хаягууд буруу байна: {emails}"],
+diff --git a/apps/files_sharing/l10n/nb.js b/apps/files_sharing/l10n/nb.js
+index af5bacd823..cad8852f30 100644
+--- a/apps/files_sharing/l10n/nb.js
++++ b/apps/files_sharing/l10n/nb.js
+@@ -128,6 +128,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Systemansvarlig har håndhevet en passordbeskyttelse.",
+     "Automatically copying failed, please copy the share link manually" : "Automatisk kopiering feilet, vennligst kopier delingslenken manuelt",
+     "Link copied" : "Lenke kopiert",
++    "Copy readable link" : "Kopier lesbar lenke",
++    "Readable link copied" : "Lesbar lenke kopiert",
+     "Email already added" : "E-post allerede lagt til",
+     "Invalid email address" : "Ugyldig e-postadresse",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Følgende e-postadresse er ikke gyldig: {emails}","Følgende e-postadresser er ikke gyldige:: {emails}"],
+diff --git a/apps/files_sharing/l10n/nb.json b/apps/files_sharing/l10n/nb.json
+index 5565818143..338c457e03 100644
+--- a/apps/files_sharing/l10n/nb.json
++++ b/apps/files_sharing/l10n/nb.json
+@@ -126,6 +126,8 @@
+     "Your administrator has enforced a password protection." : "Systemansvarlig har håndhevet en passordbeskyttelse.",
+     "Automatically copying failed, please copy the share link manually" : "Automatisk kopiering feilet, vennligst kopier delingslenken manuelt",
+     "Link copied" : "Lenke kopiert",
++    "Copy readable link" : "Kopier lesbar lenke",
++    "Readable link copied" : "Lesbar lenke kopiert",
+     "Email already added" : "E-post allerede lagt til",
+     "Invalid email address" : "Ugyldig e-postadresse",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Følgende e-postadresse er ikke gyldig: {emails}","Følgende e-postadresser er ikke gyldige:: {emails}"],
+diff --git a/apps/files_sharing/l10n/nl.js b/apps/files_sharing/l10n/nl.js
+index 2bcaa0b855..d4598c0e89 100644
+--- a/apps/files_sharing/l10n/nl.js
++++ b/apps/files_sharing/l10n/nl.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Je beheerder heeft wachtwoordbeveiliging verplicht gesteld.",
+     "Automatically copying failed, please copy the share link manually" : "Automatisch kopiëren mislukt. Kopieer de link handmatig a.u.b.",
+     "Link copied" : "Link gekopieerd",
++    "Copy readable link" : "Leesbare link kopiëren",
++    "Readable link copied" : "Leesbare link gekopieerd",
+     "Email already added" : "E-mail al toegevoegd",
+     "Invalid email address" : "Ongeldig e-mailadres",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Het volgende e-mailadres is niet geldig: {emails}","De volgende e-mailadressen zijn niet geldig: {emails}"],
+diff --git a/apps/files_sharing/l10n/nl.json b/apps/files_sharing/l10n/nl.json
+index e4948f1647..1596b28810 100644
+--- a/apps/files_sharing/l10n/nl.json
++++ b/apps/files_sharing/l10n/nl.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Je beheerder heeft wachtwoordbeveiliging verplicht gesteld.",
+     "Automatically copying failed, please copy the share link manually" : "Automatisch kopiëren mislukt. Kopieer de link handmatig a.u.b.",
+     "Link copied" : "Link gekopieerd",
++    "Copy readable link" : "Leesbare link kopiëren",
++    "Readable link copied" : "Leesbare link gekopieerd",
+     "Email already added" : "E-mail al toegevoegd",
+     "Invalid email address" : "Ongeldig e-mailadres",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Het volgende e-mailadres is niet geldig: {emails}","De volgende e-mailadressen zijn niet geldig: {emails}"],
+diff --git a/apps/files_sharing/l10n/pl.js b/apps/files_sharing/l10n/pl.js
+index 4a5145a081..d0337523bf 100644
+--- a/apps/files_sharing/l10n/pl.js
++++ b/apps/files_sharing/l10n/pl.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Administrator wymusił ochronę hasłem.",
+     "Automatically copying failed, please copy the share link manually" : "Automatyczne kopiowanie nie powiodło się. Skopiuj ręcznie odnośnik udostępniania",
+     "Link copied" : "Link skopiowany",
++    "Copy readable link" : "Kopiuj czytelny link",
++    "Readable link copied" : "Czytelny link skopiowany",
+     "Email already added" : "Adres e-mail został już dodany",
+     "Invalid email address" : "Nieprawidłowy adres e-mail",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Podany adres e-mail jest nieprawidłowy: {emails}","Poniższe adresy e-mail są nieprawidłowe: {emails}","Poniższe adresy e-mail są nieprawidłowe: {emails}","Poniższe adresy e-mail są nieprawidłowe: {emails}"],
+diff --git a/apps/files_sharing/l10n/pl.json b/apps/files_sharing/l10n/pl.json
+index 7fe62577b3..246e45521a 100644
+--- a/apps/files_sharing/l10n/pl.json
++++ b/apps/files_sharing/l10n/pl.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Administrator wymusił ochronę hasłem.",
+     "Automatically copying failed, please copy the share link manually" : "Automatyczne kopiowanie nie powiodło się. Skopiuj ręcznie odnośnik udostępniania",
+     "Link copied" : "Link skopiowany",
++    "Copy readable link" : "Kopiuj czytelny link",
++    "Readable link copied" : "Czytelny link skopiowany",
+     "Email already added" : "Adres e-mail został już dodany",
+     "Invalid email address" : "Nieprawidłowy adres e-mail",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Podany adres e-mail jest nieprawidłowy: {emails}","Poniższe adresy e-mail są nieprawidłowe: {emails}","Poniższe adresy e-mail są nieprawidłowe: {emails}","Poniższe adresy e-mail są nieprawidłowe: {emails}"],
+diff --git a/apps/files_sharing/l10n/pt_BR.js b/apps/files_sharing/l10n/pt_BR.js
+index 32f525e7c8..863365b5e2 100644
+--- a/apps/files_sharing/l10n/pt_BR.js
++++ b/apps/files_sharing/l10n/pt_BR.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Seu administrador aplicou uma proteção por senha.",
+     "Automatically copying failed, please copy the share link manually" : "A cópia automática falhou. Copie o link de compartilhamento manualmente",
+     "Link copied" : "Link copiado",
++    "Copy readable link" : "Copiar link legível",
++    "Readable link copied" : "Link legível copiado",
+     "Email already added" : "E-mail já adicionado",
+     "Invalid email address" : "Endereço de e-mail inválido",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["O seguinte endereço de e-mail não é válido: {emails}","Os seguintes endereços de e-mail não são válidos: {emails}","Os seguintes endereços de e-mail não são válidos: {emails}"],
+diff --git a/apps/files_sharing/l10n/pt_BR.json b/apps/files_sharing/l10n/pt_BR.json
+index b25ac1c30b..225941398f 100644
+--- a/apps/files_sharing/l10n/pt_BR.json
++++ b/apps/files_sharing/l10n/pt_BR.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Seu administrador aplicou uma proteção por senha.",
+     "Automatically copying failed, please copy the share link manually" : "A cópia automática falhou. Copie o link de compartilhamento manualmente",
+     "Link copied" : "Link copiado",
++    "Copy readable link" : "Copiar link legível",
++    "Readable link copied" : "Link legível copiado",
+     "Email already added" : "E-mail já adicionado",
+     "Invalid email address" : "Endereço de e-mail inválido",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["O seguinte endereço de e-mail não é válido: {emails}","Os seguintes endereços de e-mail não são válidos: {emails}","Os seguintes endereços de e-mail não são válidos: {emails}"],
+diff --git a/apps/files_sharing/l10n/ru.js b/apps/files_sharing/l10n/ru.js
+index 0552fc194b..338e2262a7 100644
+--- a/apps/files_sharing/l10n/ru.js
++++ b/apps/files_sharing/l10n/ru.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Ваш администратор ввел в действие защиту паролем.",
+     "Automatically copying failed, please copy the share link manually" : "Не удалось выполнить автоматическое копирование, пожалуйста, скопируйте ссылку для обмена вручную",
+     "Link copied" : "Ссылка скопирована",
++    "Copy readable link" : "Копировать читаемую ссылку",
++    "Readable link copied" : "Читаемая ссылка скопирована",
+     "Email already added" : "Адрес электронной почты уже добавлен",
+     "Invalid email address" : "Неверный адрес электронной почты",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Следующий адрес электронной почты недействителен: {emails}","Следующие адреса электронной почты недействительны: {emails}","Следующие адреса электронной почты недействительны: {emails}","Следующие адреса электронной почты недействительны: {emails}"],
+diff --git a/apps/files_sharing/l10n/ru.json b/apps/files_sharing/l10n/ru.json
+index 2c4cd650ee..fc5c7532b0 100644
+--- a/apps/files_sharing/l10n/ru.json
++++ b/apps/files_sharing/l10n/ru.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Ваш администратор ввел в действие защиту паролем.",
+     "Automatically copying failed, please copy the share link manually" : "Не удалось выполнить автоматическое копирование, пожалуйста, скопируйте ссылку для обмена вручную",
+     "Link copied" : "Ссылка скопирована",
++    "Copy readable link" : "Копировать читаемую ссылку",
++    "Readable link copied" : "Читаемая ссылка скопирована",
+     "Email already added" : "Адрес электронной почты уже добавлен",
+     "Invalid email address" : "Неверный адрес электронной почты",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Следующий адрес электронной почты недействителен: {emails}","Следующие адреса электронной почты недействительны: {emails}","Следующие адреса электронной почты недействительны: {emails}","Следующие адреса электронной почты недействительны: {emails}"],
+@@ -405,4 +407,4 @@
+     "Name, email, or Federated Cloud ID …" : "Имя или ID межсерверного обмена…",
+     "Searching …" : "Поиск…"
+ },"pluralForm" :"nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);"
+-}
+\ No newline at end of file
++}
+diff --git a/apps/files_sharing/l10n/sc.js b/apps/files_sharing/l10n/sc.js
+index 929cbdf4d6..9117286057 100644
+--- a/apps/files_sharing/l10n/sc.js
++++ b/apps/files_sharing/l10n/sc.js
+@@ -95,6 +95,8 @@ OC.L10N.register(
+     "Password" : "Crae",
+     "Generate a new password" : "Gènera una crae noa",
+     "Link copied" : "Ligòngiu copiadu",
++    "Copy readable link" : "Còpia ligòngiu ligìbile",
++    "Readable link copied" : "Ligòngiu ligìbile copiadu",
+     "Share link" : "Cumpartzi ligòngiu",
+     "Copy" : "Còpia",
+     "Select" : "Seletziona",
+diff --git a/apps/files_sharing/l10n/sc.json b/apps/files_sharing/l10n/sc.json
+index 79a0956461..f4cc4086ea 100644
+--- a/apps/files_sharing/l10n/sc.json
++++ b/apps/files_sharing/l10n/sc.json
+@@ -93,6 +93,8 @@
+     "Password" : "Crae",
+     "Generate a new password" : "Gènera una crae noa",
+     "Link copied" : "Ligòngiu copiadu",
++    "Copy readable link" : "Còpia ligòngiu ligìbile",
++    "Readable link copied" : "Ligòngiu ligìbile copiadu",
+     "Share link" : "Cumpartzi ligòngiu",
+     "Copy" : "Còpia",
+     "Select" : "Seletziona",
+diff --git a/apps/files_sharing/l10n/sk.js b/apps/files_sharing/l10n/sk.js
+index 9ae130175f..cbf1a2c51b 100644
+--- a/apps/files_sharing/l10n/sk.js
++++ b/apps/files_sharing/l10n/sk.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Váš administrátor vynútil ochranu heslom.",
+     "Automatically copying failed, please copy the share link manually" : "Automatické kopírovanie zlyhalo, skopírujte odkaz na zdieľanie manuálne",
+     "Link copied" : "Odkaz bol skopírovaný",
++    "Copy readable link" : "Kopírovať čitateľný odkaz",
++    "Readable link copied" : "Čitateľný odkaz bol skopírovaný",
+     "Email already added" : "Tento email už bol pridaný",
+     "Invalid email address" : "Neplatná emailová adresa",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Nasledujúce e-mailové adresý nie sú platné: {emails}","Nasledujúce e-mailové adresý nie sú platné: {emails}","Nasledujúce e-mailové adresý nie sú platné: {emails}","Nasledujúce e-mailové adresý nie sú platné: {emails}"],
+diff --git a/apps/files_sharing/l10n/sk.json b/apps/files_sharing/l10n/sk.json
+index 737a7e69c2..5d80009524 100644
+--- a/apps/files_sharing/l10n/sk.json
++++ b/apps/files_sharing/l10n/sk.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Váš administrátor vynútil ochranu heslom.",
+     "Automatically copying failed, please copy the share link manually" : "Automatické kopírovanie zlyhalo, skopírujte odkaz na zdieľanie manuálne",
+     "Link copied" : "Odkaz bol skopírovaný",
++    "Copy readable link" : "Kopírovať čitateľný odkaz",
++    "Readable link copied" : "Čitateľný odkaz bol skopírovaný",
+     "Email already added" : "Tento email už bol pridaný",
+     "Invalid email address" : "Neplatná emailová adresa",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Nasledujúce e-mailové adresý nie sú platné: {emails}","Nasledujúce e-mailové adresý nie sú platné: {emails}","Nasledujúce e-mailové adresý nie sú platné: {emails}","Nasledujúce e-mailové adresý nie sú platné: {emails}"],
+diff --git a/apps/files_sharing/l10n/sl.js b/apps/files_sharing/l10n/sl.js
+index 6337a64f7f..db4bb1ec0d 100644
+--- a/apps/files_sharing/l10n/sl.js
++++ b/apps/files_sharing/l10n/sl.js
+@@ -105,6 +105,8 @@ OC.L10N.register(
+     "Generate a new password" : "Ustvari novo geslo",
+     "Your administrator has enforced a password protection." : "Skrbnik zahteva uporabo zaščite z geslom.",
+     "Link copied" : "Povezava je kopirana",
++    "Copy readable link" : "Kopiraj berljivo povezavo",
++    "Readable link copied" : "Berljiva povezava je kopirana",
+     "Email already added" : "Elektronski naslov je že dodan",
+     "Invalid email address" : "Vpisan je neveljaven elektronski naslov",
+     "You can now share the link below to allow people to upload files to your directory." : "Na spodnji povezavi lahko zdaj uporabniki pošljejo datoteke v izbrano mapo.",
+diff --git a/apps/files_sharing/l10n/sl.json b/apps/files_sharing/l10n/sl.json
+index 2f99e0b68d..c76a7f9bef 100644
+--- a/apps/files_sharing/l10n/sl.json
++++ b/apps/files_sharing/l10n/sl.json
+@@ -103,6 +103,8 @@
+     "Generate a new password" : "Ustvari novo geslo",
+     "Your administrator has enforced a password protection." : "Skrbnik zahteva uporabo zaščite z geslom.",
+     "Link copied" : "Povezava je kopirana",
++    "Copy readable link" : "Kopiraj berljivo povezavo",
++    "Readable link copied" : "Berljiva povezava je kopirana",
+     "Email already added" : "Elektronski naslov je že dodan",
+     "Invalid email address" : "Vpisan je neveljaven elektronski naslov",
+     "You can now share the link below to allow people to upload files to your directory." : "Na spodnji povezavi lahko zdaj uporabniki pošljejo datoteke v izbrano mapo.",
+diff --git a/apps/files_sharing/l10n/sr.js b/apps/files_sharing/l10n/sr.js
+index b6536382a0..24c4a06c81 100644
+--- a/apps/files_sharing/l10n/sr.js
++++ b/apps/files_sharing/l10n/sr.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Ваш администратор је поставио обавезну заштиту лозинком",
+     "Automatically copying failed, please copy the share link manually" : "Није успело аутоматско копирање. молимо вас да линк копирате ручно",
+     "Link copied" : "Веза ископирана",
++    "Copy readable link" : "Копирај читљиву везу",
++    "Readable link copied" : "Читљива веза је ископирана",
+     "Email already added" : "И-мејл је већ додат",
+     "Invalid email address" : "Неисправна и-мејл адреса",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Следећа и-мејл адреса није исправна: {emails}","Следеће и-мејл адресе нису исправне: {emails}","Следеће и-мејл адресе нису исправне: {emails}"],
+diff --git a/apps/files_sharing/l10n/sr.json b/apps/files_sharing/l10n/sr.json
+index 653f0fe3f9..acef9c5568 100644
+--- a/apps/files_sharing/l10n/sr.json
++++ b/apps/files_sharing/l10n/sr.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Ваш администратор је поставио обавезну заштиту лозинком",
+     "Automatically copying failed, please copy the share link manually" : "Није успело аутоматско копирање. молимо вас да линк копирате ручно",
+     "Link copied" : "Веза ископирана",
++    "Copy readable link" : "Копирај читљиву везу",
++    "Readable link copied" : "Читљива веза је ископирана",
+     "Email already added" : "И-мејл је већ додат",
+     "Invalid email address" : "Неисправна и-мејл адреса",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Следећа и-мејл адреса није исправна: {emails}","Следеће и-мејл адресе нису исправне: {emails}","Следеће и-мејл адресе нису исправне: {emails}"],
+diff --git a/apps/files_sharing/l10n/sv.js b/apps/files_sharing/l10n/sv.js
+index 3d9d7861a7..10ab39b0c0 100644
+--- a/apps/files_sharing/l10n/sv.js
++++ b/apps/files_sharing/l10n/sv.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Din administratör har tillämpat ett lösenordsskydd.",
+     "Automatically copying failed, please copy the share link manually" : "Automatisk kopiering misslyckades, kopiera delningslänken manuellt",
+     "Link copied" : "Länk kopierad",
++    "Copy readable link" : "Kopiera läsbar länk",
++    "Readable link copied" : "Läsbar länk kopierad",
+     "Email already added" : "E-post har redan lagts till",
+     "Invalid email address" : "Ogiltig e-postadress",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Följande e-postadress är inte giltig: {emails}","Följande e-postadresser är inte giltiga: {emails}"],
+diff --git a/apps/files_sharing/l10n/sv.json b/apps/files_sharing/l10n/sv.json
+index 1066aceb78..e9faf68467 100644
+--- a/apps/files_sharing/l10n/sv.json
++++ b/apps/files_sharing/l10n/sv.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Din administratör har tillämpat ett lösenordsskydd.",
+     "Automatically copying failed, please copy the share link manually" : "Automatisk kopiering misslyckades, kopiera delningslänken manuellt",
+     "Link copied" : "Länk kopierad",
++    "Copy readable link" : "Kopiera läsbar länk",
++    "Readable link copied" : "Läsbar länk kopierad",
+     "Email already added" : "E-post har redan lagts till",
+     "Invalid email address" : "Ogiltig e-postadress",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Följande e-postadress är inte giltig: {emails}","Följande e-postadresser är inte giltiga: {emails}"],
+diff --git a/apps/files_sharing/l10n/sw.js b/apps/files_sharing/l10n/sw.js
+index be08e71956..7bef82b998 100644
+--- a/apps/files_sharing/l10n/sw.js
++++ b/apps/files_sharing/l10n/sw.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Msimamizi wako ameweka ulinzi wa nenosiri.",
+     "Automatically copying failed, please copy the share link manually" : "Kunakili kwa otomatiki kulishindikana, tafadhali nakili kiungo cha kushiriki kwa mkono.",
+     "Link copied" : "Kiungo kimenakiliwa",
++    "Copy readable link" : "Nakili kiungo kinachosomeka",
++    "Readable link copied" : "Kiungo kinachosomeka kimenakiliwa",
+     "Email already added" : "Barua pepe imeshaongezwa",
+     "Invalid email address" : "Anwani ya barua pepe si sahihi",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["The following email address is not valid: {emails}","Anwani zifuatazo za barua pepe si sahihi: {emails}"],
+diff --git a/apps/files_sharing/l10n/sw.json b/apps/files_sharing/l10n/sw.json
+index 31466cfc07..778e3ffdc7 100644
+--- a/apps/files_sharing/l10n/sw.json
++++ b/apps/files_sharing/l10n/sw.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Msimamizi wako ameweka ulinzi wa nenosiri.",
+     "Automatically copying failed, please copy the share link manually" : "Kunakili kwa otomatiki kulishindikana, tafadhali nakili kiungo cha kushiriki kwa mkono.",
+     "Link copied" : "Kiungo kimenakiliwa",
++    "Copy readable link" : "Nakili kiungo kinachosomeka",
++    "Readable link copied" : "Kiungo kinachosomeka kimenakiliwa",
+     "Email already added" : "Barua pepe imeshaongezwa",
+     "Invalid email address" : "Anwani ya barua pepe si sahihi",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["The following email address is not valid: {emails}","Anwani zifuatazo za barua pepe si sahihi: {emails}"],
+diff --git a/apps/files_sharing/l10n/tr.js b/apps/files_sharing/l10n/tr.js
+index 331a799813..b50c1b767e 100644
+--- a/apps/files_sharing/l10n/tr.js
++++ b/apps/files_sharing/l10n/tr.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Yöneticiniz parola korumasını zorunlu kılmış.",
+     "Automatically copying failed, please copy the share link manually" : "Otomatik kopyalama tamamlanamadı. Paylaşım bağlantısını el ile kopyalayın",
+     "Link copied" : "Bağlantı kopyalandı",
++    "Copy readable link" : "Okunabilir bağlantıyı kopyala",
++    "Readable link copied" : "Okunabilir bağlantı kopyalandı",
+     "Email already added" : "E-posta adresi zaten eklenmiş",
+     "Invalid email address" : "E-posta adresi geçersiz",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Şu e-posta adresi geçersiz: {emails}","Şu e-posta adresleri geçersiz: {emails}"],
+diff --git a/apps/files_sharing/l10n/tr.json b/apps/files_sharing/l10n/tr.json
+index 3684331d65..ad0f36128b 100644
+--- a/apps/files_sharing/l10n/tr.json
++++ b/apps/files_sharing/l10n/tr.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Yöneticiniz parola korumasını zorunlu kılmış.",
+     "Automatically copying failed, please copy the share link manually" : "Otomatik kopyalama tamamlanamadı. Paylaşım bağlantısını el ile kopyalayın",
+     "Link copied" : "Bağlantı kopyalandı",
++    "Copy readable link" : "Okunabilir bağlantıyı kopyala",
++    "Readable link copied" : "Okunabilir bağlantı kopyalandı",
+     "Email already added" : "E-posta adresi zaten eklenmiş",
+     "Invalid email address" : "E-posta adresi geçersiz",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["Şu e-posta adresi geçersiz: {emails}","Şu e-posta adresleri geçersiz: {emails}"],
+diff --git a/apps/files_sharing/l10n/ug.js b/apps/files_sharing/l10n/ug.js
+index 04a6b7ede4..12570162d5 100644
+--- a/apps/files_sharing/l10n/ug.js
++++ b/apps/files_sharing/l10n/ug.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "باشقۇرغۇچىڭىز مەخپىي نومۇر قوغداشنى يولغا قويدى.",
+     "Automatically copying failed, please copy the share link manually" : "ئاپتوماتىك كۆچۈرۈش مەغلۇب بولدى ، ئورتاقلىشىش ئۇلانمىسىنى قولدا كۆچۈرۈڭ",
+     "Link copied" : "ئۇلىنىش كۆچۈرۈلدى",
++    "Copy readable link" : "ئوقۇشچان ئۇلىنىشنى كۆچۈر",
++    "Readable link copied" : "ئوقۇشچان ئۇلىنىش كۆچۈرۈلدى",
+     "Email already added" : "ئېلېكترونلۇق خەت قوشۇلدى",
+     "Invalid email address" : "ئىناۋەتسىز ئېلخەت ئادرېسى",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["تۆۋەندىكى ئېلخەت ئادىرسى ئىناۋەتلىك ئەمەس: {emails}","تۆۋەندىكى ئېلخەت ئادىرسى ئىناۋەتلىك ئەمەس: {emails}"],
+diff --git a/apps/files_sharing/l10n/ug.json b/apps/files_sharing/l10n/ug.json
+index c1d830b579..2449ccbcee 100644
+--- a/apps/files_sharing/l10n/ug.json
++++ b/apps/files_sharing/l10n/ug.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "باشقۇرغۇچىڭىز مەخپىي نومۇر قوغداشنى يولغا قويدى.",
+     "Automatically copying failed, please copy the share link manually" : "ئاپتوماتىك كۆچۈرۈش مەغلۇب بولدى ، ئورتاقلىشىش ئۇلانمىسىنى قولدا كۆچۈرۈڭ",
+     "Link copied" : "ئۇلىنىش كۆچۈرۈلدى",
++    "Copy readable link" : "ئوقۇشچان ئۇلىنىشنى كۆچۈر",
++    "Readable link copied" : "ئوقۇشچان ئۇلىنىش كۆچۈرۈلدى",
+     "Email already added" : "ئېلېكترونلۇق خەت قوشۇلدى",
+     "Invalid email address" : "ئىناۋەتسىز ئېلخەت ئادرېسى",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["تۆۋەندىكى ئېلخەت ئادىرسى ئىناۋەتلىك ئەمەس: {emails}","تۆۋەندىكى ئېلخەت ئادىرسى ئىناۋەتلىك ئەمەس: {emails}"],
+diff --git a/apps/files_sharing/l10n/uk.js b/apps/files_sharing/l10n/uk.js
+index 2433b9c6ac..706ba7a3d1 100644
+--- a/apps/files_sharing/l10n/uk.js
++++ b/apps/files_sharing/l10n/uk.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "Адміністратор встановив політику захисту паролем ",
+     "Automatically copying failed, please copy the share link manually" : "Помилка під час автоматичного копіювання. Скопіюйте вручну посилання на спільний ресурс.",
+     "Link copied" : "Посилання скопійовано",
++    "Copy readable link" : "Копіювати читабельне посилання",
++    "Readable link copied" : "Читабельне посилання скопійовано",
+     "Email already added" : "Ел. адресу вже додано",
+     "Invalid email address" : "Недійсна адреса ел. пошти",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["{emails} ел. адреса не є дійсною ","{emails} ел. адреси не є дійсними ","{emails} ел. адрес не є дійсними ","{emails} ел. адрес не є дійсними "],
+diff --git a/apps/files_sharing/l10n/uk.json b/apps/files_sharing/l10n/uk.json
+index 1b0841150c..89af2f3c5d 100644
+--- a/apps/files_sharing/l10n/uk.json
++++ b/apps/files_sharing/l10n/uk.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "Адміністратор встановив політику захисту паролем ",
+     "Automatically copying failed, please copy the share link manually" : "Помилка під час автоматичного копіювання. Скопіюйте вручну посилання на спільний ресурс.",
+     "Link copied" : "Посилання скопійовано",
++    "Copy readable link" : "Копіювати читабельне посилання",
++    "Readable link copied" : "Читабельне посилання скопійовано",
+     "Email already added" : "Ел. адресу вже додано",
+     "Invalid email address" : "Недійсна адреса ел. пошти",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["{emails} ел. адреса не є дійсною ","{emails} ел. адреси не є дійсними ","{emails} ел. адрес не є дійсними ","{emails} ел. адрес не є дійсними "],
+diff --git a/apps/files_sharing/l10n/vi.js b/apps/files_sharing/l10n/vi.js
+index 5b8908244f..42057b242c 100644
+--- a/apps/files_sharing/l10n/vi.js
++++ b/apps/files_sharing/l10n/vi.js
+@@ -98,6 +98,8 @@ OC.L10N.register(
+     "Set a password" : "Đặt mật khẩu",
+     "Password" : "Mật khẩu",
+     "Link copied" : "Đã sao chép liên kết",
++    "Copy readable link" : "Sao chép liên kết dễ đọc",
++    "Readable link copied" : "Đã sao chép liên kết dễ đọc",
+     "Share link" : "Chia sẽ liên kết",
+     "Select" : "Chọn",
+     "Close" : "Đóng",
+diff --git a/apps/files_sharing/l10n/vi.json b/apps/files_sharing/l10n/vi.json
+index 67c9ff70c5..da080ac0ed 100644
+--- a/apps/files_sharing/l10n/vi.json
++++ b/apps/files_sharing/l10n/vi.json
+@@ -96,6 +96,8 @@
+     "Set a password" : "Đặt mật khẩu",
+     "Password" : "Mật khẩu",
+     "Link copied" : "Đã sao chép liên kết",
++    "Copy readable link" : "Sao chép liên kết dễ đọc",
++    "Readable link copied" : "Đã sao chép liên kết dễ đọc",
+     "Share link" : "Chia sẽ liên kết",
+     "Select" : "Chọn",
+     "Close" : "Đóng",
+diff --git a/apps/files_sharing/l10n/zh_CN.js b/apps/files_sharing/l10n/zh_CN.js
+index 7fc27c9537..cdf070ec23 100644
+--- a/apps/files_sharing/l10n/zh_CN.js
++++ b/apps/files_sharing/l10n/zh_CN.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "您的管理员已强制实施密码保护。",
+     "Automatically copying failed, please copy the share link manually" : "自动复制失败，请手动复制共享链接",
+     "Link copied" : "已复制链接",
++    "Copy readable link" : "复制可读链接",
++    "Readable link copied" : "已复制可读链接",
+     "Email already added" : "电子邮箱已添加",
+     "Invalid email address" : "无效电子邮箱地址",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["以下电子邮箱地址无效：{emails}"],
+diff --git a/apps/files_sharing/l10n/zh_CN.json b/apps/files_sharing/l10n/zh_CN.json
+index 1e5e35d030..63a0444ee2 100644
+--- a/apps/files_sharing/l10n/zh_CN.json
++++ b/apps/files_sharing/l10n/zh_CN.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "您的管理员已强制实施密码保护。",
+     "Automatically copying failed, please copy the share link manually" : "自动复制失败，请手动复制共享链接",
+     "Link copied" : "已复制链接",
++    "Copy readable link" : "复制可读链接",
++    "Readable link copied" : "已复制可读链接",
+     "Email already added" : "电子邮箱已添加",
+     "Invalid email address" : "无效电子邮箱地址",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["以下电子邮箱地址无效：{emails}"],
+diff --git a/apps/files_sharing/l10n/zh_HK.js b/apps/files_sharing/l10n/zh_HK.js
+index 1c55ab9554..7f87fdb49d 100644
+--- a/apps/files_sharing/l10n/zh_HK.js
++++ b/apps/files_sharing/l10n/zh_HK.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "您的管理員已強制設置密碼保護。",
+     "Automatically copying failed, please copy the share link manually" : "自動複製失敗，請手動複製共享連結。",
+     "Link copied" : "連結已複製",
++    "Copy readable link" : "複製可讀連結",
++    "Readable link copied" : "已複製可讀連結",
+     "Email already added" : "已加入電郵地址",
+     "Invalid email address" : "電郵地址無效",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["以下電子郵件地址無效：{emails}"],
+diff --git a/apps/files_sharing/l10n/zh_HK.json b/apps/files_sharing/l10n/zh_HK.json
+index 43f0f5bb29..2203358538 100644
+--- a/apps/files_sharing/l10n/zh_HK.json
++++ b/apps/files_sharing/l10n/zh_HK.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "您的管理員已強制設置密碼保護。",
+     "Automatically copying failed, please copy the share link manually" : "自動複製失敗，請手動複製共享連結。",
+     "Link copied" : "連結已複製",
++    "Copy readable link" : "複製可讀連結",
++    "Readable link copied" : "已複製可讀連結",
+     "Email already added" : "已加入電郵地址",
+     "Invalid email address" : "電郵地址無效",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["以下電子郵件地址無效：{emails}"],
+diff --git a/apps/files_sharing/l10n/zh_TW.js b/apps/files_sharing/l10n/zh_TW.js
+index 21c79f9b9f..86df6a93e2 100644
+--- a/apps/files_sharing/l10n/zh_TW.js
++++ b/apps/files_sharing/l10n/zh_TW.js
+@@ -134,6 +134,8 @@ OC.L10N.register(
+     "Your administrator has enforced a password protection." : "您的管理員已強制設定密碼保護。",
+     "Automatically copying failed, please copy the share link manually" : "自動複製失敗，請手動複製分享連結",
+     "Link copied" : "連結已複製",
++    "Copy readable link" : "複製可讀連結",
++    "Readable link copied" : "已複製可讀連結",
+     "Email already added" : "已新增電子郵件",
+     "Invalid email address" : "無效的電子郵件地址",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["以下電子郵件地址無效：{emails}"],
+diff --git a/apps/files_sharing/l10n/zh_TW.json b/apps/files_sharing/l10n/zh_TW.json
+index ec469d1ccc..5fdf75b2fc 100644
+--- a/apps/files_sharing/l10n/zh_TW.json
++++ b/apps/files_sharing/l10n/zh_TW.json
+@@ -132,6 +132,8 @@
+     "Your administrator has enforced a password protection." : "您的管理員已強制設定密碼保護。",
+     "Automatically copying failed, please copy the share link manually" : "自動複製失敗，請手動複製分享連結",
+     "Link copied" : "連結已複製",
++    "Copy readable link" : "複製可讀連結",
++    "Readable link copied" : "已複製可讀連結",
+     "Email already added" : "已新增電子郵件",
+     "Invalid email address" : "無效的電子郵件地址",
+     "_The following email address is not valid: {emails}_::_The following email addresses are not valid: {emails}_" : ["以下電子郵件地址無效：{emails}"],
+diff --git a/apps/files_sharing/src/components/SharingEntryLink.vue b/apps/files_sharing/src/components/SharingEntryLink.vue
+index 7e2c22713e..04f0d039cb 100644
+--- a/apps/files_sharing/src/components/SharingEntryLink.vue
++++ b/apps/files_sharing/src/components/SharingEntryLink.vue
+@@ -171,6 +171,15 @@
+ 					{{ t('files_sharing', 'Generate QR code') }}
+ 				</NcActionButton>
+ 
++				<NcActionButton
++					:closeAfterClick="true"
++					@click.prevent="copyReadableLink">
++					<template #icon>
++						<NcIconSvgWrapper :path="mdiContentCopy" />
++					</template>
++					{{ t('files_sharing', 'Copy readable link') }}
++				</NcActionButton>
++
+ 				<NcActionSeparator />
+ 
+ 				<!-- external actions -->
+@@ -564,6 +573,16 @@ export default {
+ 			return generateUrl('/s/{token}', { token: this.share.token }, { baseURL: getBaseUrl() })
+ 		},
+ 
++		/**
++		 * Return a human-readable public share link for explicit clipboard use.
++		 * Reserved URL delimiters remain encoded by decodeURI.
++		 *
++		 * @return {string}
++		 */
++		readableShareLink() {
++			return decodeURI(this.shareLink)
++		},
++
+ 		/**
+ 		 * Tooltip message for actions button
+ 		 *
+@@ -823,6 +842,16 @@ export default {
+ 			}
+ 		},
+ 
++		async copyReadableLink() {
++			try {
++				await navigator.clipboard.writeText(this.readableShareLink)
++				showSuccess(t('files_sharing', 'Readable link copied'))
++			} catch (error) {
++				logger.debug('Failed to copy readable share link', { error })
++				window.prompt(t('files_sharing', 'Your browser does not support copying, please copy the link manually:'), this.readableShareLink)
++			}
++		},
++
+ 		/**
+ 		 * Update newPassword values
+ 		 * of share. If password is set but not newPassword

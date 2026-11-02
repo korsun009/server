@@ -1,0 +1,149 @@
+diff --git a/apps/files_sharing/lib/Controller/ShareAPIController.php b/apps/files_sharing/lib/Controller/ShareAPIController.php
+index ff98c0d08a..b1e38202f6 100644
+--- a/apps/files_sharing/lib/Controller/ShareAPIController.php
++++ b/apps/files_sharing/lib/Controller/ShareAPIController.php
+@@ -1341,8 +1341,9 @@ class ShareAPIController extends OCSController {
+ 				if (!$this->shareManager->allowCustomTokens()) {
+ 					throw new OCSForbiddenException($this->l->t('Custom share link tokens have been disabled by the administrator'));
+ 				}
+-				if (!$this->validateToken($token)) {
+-					throw new OCSBadRequestException($this->l->t('Tokens must be between 1 and %s characters long and may only contain letters, numbers, or a hyphen', [self::TOKEN_MAX_LENGTH]));
++				$token = $this->normalizeToken($token);
++				if ($token === null) {
++					throw new OCSBadRequestException($this->l->t('Tokens must be between 1 and %s characters long and may only contain Unicode letters, numbers, combining marks, or a hyphen', [self::TOKEN_MAX_LENGTH]));
+ 				}
+ 				$share->setToken($token);
+ 			}
+@@ -1380,15 +1381,18 @@ class ShareAPIController extends OCSController {
+ 		return new DataResponse($this->formatShare($share));
+ 	}
+ 
+-	private function validateToken(string $token): bool {
++	private function normalizeToken(string $token): ?string {
++		$token = \OC_Util::normalizeUnicode($token);
+ 		$length = mb_strlen($token);
+ 		if ($length === 0 || $length > self::TOKEN_MAX_LENGTH) {
+-			return false;
++			return null;
+ 		}
+-		if (!preg_match('/^[a-z0-9-]+$/i', $token)) {
+-			return false;
++		if (preg_match('/\A[\p{L}\p{N}\p{M}-]+\z/u', $token) !== 1
++			|| preg_match('/\A\p{M}/u', $token) === 1
++			|| (preg_match('/[\p{L}\p{N}]/u', $token) !== 1 && preg_match('/\A-+\z/', $token) !== 1)) {
++			return null;
+ 		}
+-		return true;
++		return $token;
+ 	}
+ 
+ 	/**
+diff --git a/apps/files_sharing/src/views/SharingDetailsTab.spec.ts b/apps/files_sharing/src/views/SharingDetailsTab.spec.ts
+index 6cd649f7ae..ddb4c2e5e3 100644
+--- a/apps/files_sharing/src/views/SharingDetailsTab.spec.ts
++++ b/apps/files_sharing/src/views/SharingDetailsTab.spec.ts
+@@ -145,6 +145,20 @@ describe('SharingDetailsTab.saveShare — password guard', () => {
+ 			expect(ctx.addShare).not.toHaveBeenCalled()
+ 			expect(ctx.queueUpdate).toHaveBeenCalledTimes(1)
+ 		})
++
++		it('queues a multilingual custom token without ASCII filtering', async () => {
++			const ctx = buildContext({
++				isPublicShare: true,
++				isNewShare: false,
++				config: { allowCustomTokens: true },
++				share: { ...buildContext().share, id: 42, _share: { id: 42 }, token: '資料-учет-نسخة' },
++			})
++
++			await callSaveShare(ctx)
++
++			expect(ctx.queueUpdate).toHaveBeenCalledWith('permissions', 'attributes', 'note', 'expireDate', 'label', 'hideDownload', 'token')
++			expect(ctx.share.token).toBe('資料-учет-نسخة')
++		})
+ 	})
+ 
+ 	describe('password checkbox unchecked', () => {
+diff --git a/apps/files_sharing/tests/Controller/ShareAPIControllerTest.php b/apps/files_sharing/tests/Controller/ShareAPIControllerTest.php
+index 104fc53ec8..ac1045f79a 100644
+--- a/apps/files_sharing/tests/Controller/ShareAPIControllerTest.php
++++ b/apps/files_sharing/tests/Controller/ShareAPIControllerTest.php
+@@ -2741,6 +2741,7 @@ class ShareAPIControllerTest extends TestCase {
+ 			->setNode($folder);
+ 
+ 		$this->shareManager->method('getShareById')->with('ocinternal:42')->willReturn($share);
++		$this->shareManager->method('allowCustomTokens')->willReturn(true);
+ 
+ 		$this->shareManager->expects($this->once())->method('updateShare')->with(
+ 			$this->callback(function (IShare $share) {
+@@ -2752,7 +2753,8 @@ class ShareAPIControllerTest extends TestCase {
+ 				&& $share->getExpirationDate() == $date
+ 				&& $share->getNote() === 'note'
+ 				&& $share->getLabel() === 'label'
+-				&& $share->getHideDownload() === true;
++				&& $share->getHideDownload() === true
++				&& $share->getToken() === 'café';
+ 			})
+ 		)->willReturnArgument(0);
+ 
+@@ -2774,7 +2776,7 @@ class ShareAPIControllerTest extends TestCase {
+ 			->willReturn(42);
+ 
+ 		$expected = new DataResponse([]);
+-		$result = $ocs->updateShare(42, null, 'password', null, 'true', '2000-01-01', 'note', 'label', 'true');
++		$result = $ocs->updateShare(42, null, 'password', null, 'true', '2000-01-01', 'note', 'label', 'true', null, null, "cafe\u{0301}");
+ 
+ 		$this->assertInstanceOf(get_class($expected), $result);
+ 		$this->assertEquals($expected->getData(), $result->getData());
+@@ -5256,21 +5258,41 @@ class ShareAPIControllerTest extends TestCase {
+ 		$this->invokePrivate($ocs, 'checkInheritedAttributes', [$share]);
+ 	}
+ 
+-	public static function dataValidateToken(): array {
++	public static function dataNormalizeToken(): array {
+ 		return [
+-			'empty token' => ['', false],
+-			'single character' => ['a', true],
+-			'letters numbers and hyphen' => ['abc-123', true],
+-			'invalid character' => ['abc_123', false],
+-			'32 characters (oc_share.token column limit)' => [str_repeat('a', 32), true],
+-			'32 non-ascii characters' => [str_repeat('é', 32), false],
+-			'33 characters (exceeds oc_share.token column limit)' => [str_repeat('a', 33), false],
++			'empty token' => ['', null],
++			'single character' => ['a', 'a'],
++			'letters numbers and hyphen' => ['abc-123', 'abc-123'],
++			'hyphens only remain valid' => ['---', '---'],
++			'Cyrillic' => ['учет-пк', 'учет-пк'],
++			'Latin with diacritics' => ['übertragung', 'übertragung'],
++			'Han' => ['資料-2026', '資料-2026'],
++			'Arabic' => ['نسخة-٢', 'نسخة-٢'],
++			'letters with combining marks' => ['हिन्दी-१२', 'हिन्दी-१२'],
++			'decomposed token is normalized to NFC' => ["cafe\u{0301}", 'café'],
++			'invalid underscore' => ['abc_123', null],
++			'invalid whitespace' => ['two words', null],
++			'invalid URL path delimiter' => ['share/path', null],
++			'invalid URL query delimiter' => ['share?download', null],
++			'invalid URL fragment delimiter' => ['share#fragment', null],
++			'invalid percent encoding' => ['share%2Fpath', null],
++			'invalid backslash' => ['share\\path', null],
++			'invalid emoji' => ['share-😀', null],
++			'invalid leading combining mark' => ["\u{0301}abc", null],
++			'invalid marks and hyphens only' => ["-\u{0301}-", null],
++			'invalid bidi control' => ["abc\u{202E}def", null],
++			'invalid zero-width joiner' => ["abc\u{200D}def", null],
++			'32 characters (oc_share.token column limit)' => [str_repeat('a', 32), str_repeat('a', 32)],
++			'32 non-ASCII characters' => [str_repeat('é', 32), str_repeat('é', 32)],
++			'32 decomposed characters after NFC normalization' => [str_repeat("e\u{0301}", 32), str_repeat('é', 32)],
++			'33 characters (exceeds oc_share.token column limit)' => [str_repeat('a', 33), null],
++			'33 decomposed characters after NFC normalization' => [str_repeat("e\u{0301}", 33), null],
+ 		];
+ 	}
+ 
+-	#[DataProvider('dataValidateToken')]
+-	public function testValidateToken(string $token, bool $expected): void {
+-		$this->assertSame($expected, $this->invokePrivate($this->ocs, 'validateToken', [$token]));
++	#[DataProvider('dataNormalizeToken')]
++	public function testNormalizeToken(string $token, ?string $expected): void {
++		$this->assertSame($expected, $this->invokePrivate($this->ocs, 'normalizeToken', [$token]));
+ 	}
+ 
+ 	/**
